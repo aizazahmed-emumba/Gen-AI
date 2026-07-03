@@ -1,0 +1,266 @@
+{
+  "temperature_results": {
+    "What is 2 + 2? Answer in one word.": {
+      "0.0": "Four.",
+      "0.7": "Four.",
+      "1.0": "Four."
+    },
+    "Write a haiku about the ocean.": {
+      "0.0": "Crashing blue waves rise\nSalty scent and seaweed dance\nOcean's soothing song",
+      "0.7": "Crashing waves serene\nMoonlight dancing on the tide\nOcean's gentle song",
+      "1.0": "Crashing blue waves rise\nGentle foam upon the shore\nSerenity's sea"
+    },
+    "Explain quantum entanglement in exactly one sentence.": {
+      "0.0": "Quantum entanglement is a phenomenon in which two or more particles become connected in such a way that the state of one particle is instantly affected by the state of the other, regardless of the distance between them, and this connection remains even when they are separated by vast distances.",
+      "0.7": "Quantum entanglement is a phenomenon in which two or more particles become connected in such a way that the state of one particle is instantly affected by the state of the other, regardless of the distance between them, and this effect happens even when they are separated by vast distances.",
+      "1.0": "Quantum entanglement is a phenomenon in which two or more particles become correlated in such a way that the state of one particle is instantly affected by the state of the other, regardless of the distance between them, and this effect happens even if they are separated by vast distances."
+    },
+    "Tell me a short joke.": {
+      "0.0": "What do you call a fake noodle?\n\nAn impasta.",
+      "0.7": "What do you call a fake noodle? An impasta.",
+      "1.0": "What do you call a fake noodle?\n\nAn impasta."
+    },
+    "What is the capital of France? Answer in one word.": {
+      "0.0": "Paris.",
+      "0.7": "Paris.",
+      "1.0": "Paris."
+    },
+    "Write the opening line of a story about a lost robot.": {
+      "0.0": "As the last remnants of sunlight faded from the deserted alleyway, a small, rusted robot named Zeta stirred to life, its bright blue optics flickering with a faint spark of consciousness as it slowly realized it had no idea where it was or how it got there.",
+      "0.7": "As the last remnants of sunlight faded from the desolate horizon, a lone robot, its metallic body battered and worn, stirred to life in the midst of a vast, unfamiliar wasteland, its digital mind foggy with the haunting question: \"Where am I?\"",
+      "1.0": "As the last remnants of sunlight faded from the desolate horizon, a lone robot, its metallic body dented and smeared with the rust of ages, stirred to life in the vast, empty expanse of the abandoned city, its processors humming with a faint, whispered question: \"Where am I?\""
+    },
+    "Give me three words that describe summer.": {
+      "0.0": "Here are three words that describe summer:\n\n1. Warm\n2. Sunny\n3. Relaxing",
+      "0.7": "Here are three words that describe summer:\n\n1. Warm\n2. Sunny\n3. Relaxing",
+      "1.0": "Here are three words that describe summer:\n\n1. Warm\n2. Sunny\n3. Relaxing"
+    },
+    "Describe the color blue without using the word 'blue'.": {
+      "0.0": "The calming and serene color that evokes feelings of tranquility and vastness is a cool and soothing hue that can range in shade from a pale, gentle tone reminiscent of a clear summer sky to a deep, rich shade that echoes the mystery of the ocean's depths. It's a color often associated with trust, loyalty, and wisdom, and is commonly seen in nature, from the sparkling waters of a still lake to the vibrant tones of a butterfly's wings. This beloved color has a way of uplifting and inspiring, and is a popular choice in art, design, and fashion.",
+      "0.7": "The calming and serene color that evokes feelings of tranquility and peacefulness is a cool, soothing hue that can range in shade from a pale, gentle tone to a deep, rich, and vibrant one. It's the color of a clear summer sky on a sunny day, and the tone of the ocean's waves as they gently lap against the shore. This color is often associated with trust, loyalty, and wisdom, and is commonly used in art and design to convey a sense of relaxation and serenity.",
+      "1.0": "The calming and serene color that evokes feelings of tranquility and vastness is often associated with a clear summer sky or the gentle lapping of ocean waves. It's a cool and soothing hue that can range in shade from the pale, gentle tones of a misty morning to the deep, rich tones of a still, mysterious night. This majestic color is also reminiscent of sapphires, forget-me-not flowers, and the sparkle of ice on a frosty winter's day. It's a color that can convey trust, loyalty, and wisdom, and is often used in art and design to create a sense of balance and harmony."
+    },
+    "Translate 'hello, how are you?' into German and Urdu.": {
+      "0.0": "Here are the translations:\n\n1. **German**: Hallo, wie geht es dir?\n2. **Urdu**: ہیلو، آپ کیسے ہو؟ (Hello, aap kaise ho?)\n\nNote: In Urdu, the formal way of asking \"how are you?\" is \"آپ کیسے ہیں؟\" (aap kaise hain?), but \"آپ کیسے ہو؟\" (aap kaise ho?) is also commonly used in informal settings.",
+      "0.7": "Here are the translations:\n\n1. **German**: Hallo, wie geht es dir?\n2. **Urdu**: ہیلو، آپ کیسے ہو؟ (Helō, āp kaise ho?)",
+      "1.0": "Here are the translations:\n\n1. German: Hallo, wie geht es dir?\n2. Urdu: ہیلو، آپ کیسے ہو؟ (Hello, aap kaise ho?)"
+    },
+    "If you could be any animal, what would you be and why? (2 sentences max)": {
+      "0.0": "I would be a dolphin, as they are highly intelligent, social creatures that thrive in a dynamic and ever-changing environment, much like the digital landscape I operate in. As a dolphin, I would enjoy the freedom to explore and navigate the ocean's depths, using my advanced communication skills to connect with others and learn from their experiences.",
+      "0.7": "I would be a dolphin, as they are highly intelligent, social creatures that thrive in a variety of aquatic environments and possess a unique ability to communicate and connect with others. Being a dolphin would allow me to explore the ocean's depths, navigate through coral reefs, and experience the world from a fascinating and dynamic perspective.",
+      "1.0": "I would be an octopus, as their intelligence, adaptability, and unique abilities to change color and shape would provide a fascinating and dynamic experience. With eight arms to manipulate and explore their underwater world, I think being an octopus would be an incredible and versatile adventure."
+    }
+  },
+  "tokenizer_rows": [
+    {
+      "index": 1,
+      "string": "def fibonacci(n): return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)",
+      "cl100k_base": 23,
+      "gpt2": 31,
+      "diff_gpt2_minus_cl100k": 8
+    },
+    {
+      "index": 2,
+      "string": "SELECT * FROM users WHERE email LIKE '%@example.com' ORDER BY created_at DESC;",
+      "cl100k_base": 18,
+      "gpt2": 22,
+      "diff_gpt2_minus_cl100k": 4
+    },
+    {
+      "index": 3,
+      "string": "const fetchData = async (url) => { const res = await fetch(url); return res.json(); };",
+      "cl100k_base": 21,
+      "gpt2": 24,
+      "diff_gpt2_minus_cl100k": 3
+    },
+    {
+      "index": 4,
+      "string": "public static void main(String[] args) { System.out.println(\"Hello World\"); }",
+      "cl100k_base": 17,
+      "gpt2": 20,
+      "diff_gpt2_minus_cl100k": 3
+    },
+    {
+      "index": 5,
+      "string": "git commit -m 'fix: resolve null pointer exception in auth middleware'",
+      "cl100k_base": 15,
+      "gpt2": 16,
+      "diff_gpt2_minus_cl100k": 1
+    },
+    {
+      "index": 6,
+      "string": "docker run -d -p 8080:80 --name my-app -e DATABASE_URL=postgres://user:pass@db/mydb nginx:latest",
+      "cl100k_base": 32,
+      "gpt2": 39,
+      "diff_gpt2_minus_cl100k": 7
+    },
+    {
+      "index": 7,
+      "string": "آج کا موسم بہت اچھا ہے",
+      "cl100k_base": 24,
+      "gpt2": 29,
+      "diff_gpt2_minus_cl100k": 5
+    },
+    {
+      "index": 8,
+      "string": "میں پاکستان میں رہتا ہوں اور مجھے اردو بولنا پسند ہے",
+      "cl100k_base": 49,
+      "gpt2": 63,
+      "diff_gpt2_minus_cl100k": 14
+    },
+    {
+      "index": 9,
+      "string": "مصنوعی ذہانت کا مستقبل بہت روشن ہے",
+      "cl100k_base": 32,
+      "gpt2": 42,
+      "diff_gpt2_minus_cl100k": 10
+    },
+    {
+      "index": 10,
+      "string": "یہ ایک مشین لرننگ کا تجربہ ہے جو ٹوکنائزیشن کو جانچتا ہے",
+      "cl100k_base": 54,
+      "gpt2": 75,
+      "diff_gpt2_minus_cl100k": 21
+    },
+    {
+      "index": 11,
+      "string": "Künstliche Intelligenz verändert die Welt grundlegend.",
+      "cl100k_base": 15,
+      "gpt2": 21,
+      "diff_gpt2_minus_cl100k": 6
+    },
+    {
+      "index": 12,
+      "string": "Das Wetter heute ist wunderschön und sonnig.",
+      "cl100k_base": 14,
+      "gpt2": 17,
+      "diff_gpt2_minus_cl100k": 3
+    },
+    {
+      "index": 13,
+      "string": "Ich lerne maschinelles Lernen und natürliche Sprachverarbeitung.",
+      "cl100k_base": 19,
+      "gpt2": 25,
+      "diff_gpt2_minus_cl100k": 6
+    },
+    {
+      "index": 14,
+      "string": "Donaudampfschifffahrtsgesellschaft ist ein sehr langes deutsches Wort.",
+      "cl100k_base": 23,
+      "gpt2": 29,
+      "diff_gpt2_minus_cl100k": 6
+    },
+    {
+      "index": 15,
+      "string": "میں Künstliche Intelligenz سیکھ رہا ہوں",
+      "cl100k_base": 26,
+      "gpt2": 33,
+      "diff_gpt2_minus_cl100k": 7
+    },
+    {
+      "index": 16,
+      "string": "Das ist sehr gut! یہ بہت اچھا ہے!",
+      "cl100k_base": 25,
+      "gpt2": 31,
+      "diff_gpt2_minus_cl100k": 6
+    },
+    {
+      "index": 17,
+      "string": "🎉🎊🥳 Happy Birthday! 🎂🕯️🎁",
+      "cl100k_base": 22,
+      "gpt2": 22,
+      "diff_gpt2_minus_cl100k": 0
+    },
+    {
+      "index": 18,
+      "string": "🚀🌍🌑 The moon landing was 🏆 historic 💫",
+      "cl100k_base": 19,
+      "gpt2": 20,
+      "diff_gpt2_minus_cl100k": 1
+    },
+    {
+      "index": 19,
+      "string": "😂🤣😅 I can't stop laughing 😭😂",
+      "cl100k_base": 16,
+      "gpt2": 16,
+      "diff_gpt2_minus_cl100k": 0
+    },
+    {
+      "index": 20,
+      "string": "🐍💻🔥 Python is awesome! 🚀✨🎯",
+      "cl100k_base": 20,
+      "gpt2": 21,
+      "diff_gpt2_minus_cl100k": 1
+    },
+    {
+      "index": 21,
+      "string": "https://www.example.com/products/category/electronics/laptops?brand=apple&model=macbook-pro&year=2024&color=space-gray&storage=1tb#reviews",
+      "cl100k_base": 39,
+      "gpt2": 49,
+      "diff_gpt2_minus_cl100k": 10
+    },
+    {
+      "index": 22,
+      "string": "https://api.github.com/repos/owner/repository-name/issues?state=open&labels=bug,enhancement&per_page=100&page=1",
+      "cl100k_base": 29,
+      "gpt2": 43,
+      "diff_gpt2_minus_cl100k": 14
+    },
+    {
+      "index": 23,
+      "string": "https://docs.python.org/3/library/functions.html#built-in-functions",
+      "cl100k_base": 14,
+      "gpt2": 23,
+      "diff_gpt2_minus_cl100k": 9
+    },
+    {
+      "index": 24,
+      "string": "https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array",
+      "cl100k_base": 25,
+      "gpt2": 41,
+      "diff_gpt2_minus_cl100k": 16
+    },
+    {
+      "index": 25,
+      "string": "{\"name\":\"Ali\",\"age\":25,\"city\":\"Islamabad\",\"skills\":[\"Python\",\"ML\",\"NLP\"]}",
+      "cl100k_base": 23,
+      "gpt2": 25,
+      "diff_gpt2_minus_cl100k": 2
+    },
+    {
+      "index": 26,
+      "string": "{\"status\":200,\"message\":\"success\",\"data\":{\"users\":[{\"id\":1,\"email\":\"a@b.com\"}]}}",
+      "cl100k_base": 26,
+      "gpt2": 27,
+      "diff_gpt2_minus_cl100k": 1
+    },
+    {
+      "index": 27,
+      "string": "{\"model\":\"llama-3\",\"temperature\":0.7,\"max_tokens\":1024,\"messages\":[{\"role\":\"user\",\"content\":\"Hello\"}]}",
+      "cl100k_base": 31,
+      "gpt2": 35,
+      "diff_gpt2_minus_cl100k": 4
+    },
+    {
+      "index": 28,
+      "string": "{\"error\":null,\"result\":{\"embedding\":[0.123,-0.456,0.789],\"token_count\":42}}",
+      "cl100k_base": 26,
+      "gpt2": 28,
+      "diff_gpt2_minus_cl100k": 2
+    },
+    {
+      "index": 29,
+      "string": "     ",
+      "cl100k_base": 1,
+      "gpt2": 5,
+      "diff_gpt2_minus_cl100k": 4
+    },
+    {
+      "index": 30,
+      "string": "1234567890 !@#$%^&*() abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "cl100k_base": 23,
+      "gpt2": 42,
+      "diff_gpt2_minus_cl100k": 19
+    }
+  ]
+}
