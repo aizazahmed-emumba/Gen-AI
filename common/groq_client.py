@@ -10,11 +10,15 @@ def get_client():
     return Groq(api_key=api_key)
 
 
-def ask(prompt, model="llama-3.3-70b-versatile", temperature=0.7):
+def ask(prompt, model="llama-3.3-70b-versatile", temperature=0.7, system=None):
     client = get_client()
+    messages = []
+    if system:
+        messages.append({"role": "system", "content": system})
+    messages.append({"role": "user", "content": prompt})
     response = client.chat.completions.create(
         model=model,
-        messages=[{"role": "user", "content": prompt}],
+        messages=messages,
         temperature=temperature,
     )
     return response.choices[0].message.content
