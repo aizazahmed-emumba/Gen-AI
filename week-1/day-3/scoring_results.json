@@ -1,0 +1,410 @@
+{
+  "model_a": "llama-3.3-70b-versatile",
+  "model_b": "llama-3.1-8b-instant",
+  "metrics": {
+    "model_a": {
+      "exact_fact_match_rate": 0.8,
+      "token_f1": 0.672,
+      "abstention_accuracy": 1.0,
+      "groundedness": 0.981
+    },
+    "model_b": {
+      "exact_fact_match_rate": 0.75,
+      "token_f1": 0.66,
+      "abstention_accuracy": 1.0,
+      "groundedness": 0.996
+    }
+  },
+  "pass_fail": {
+    "model_a": {
+      "passed": 21,
+      "total": 25,
+      "pass_rate": 0.84
+    },
+    "model_b": {
+      "passed": 20,
+      "total": 25,
+      "pass_rate": 0.8
+    }
+  },
+  "per_question": {
+    "model_a": {
+      "Q1": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q2": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q3": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q4": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 0.5
+      },
+      "Q5": {
+        "answerable": true,
+        "passed": false,
+        "abstained": true,
+        "f1": 0.0
+      },
+      "Q6": {
+        "answerable": true,
+        "passed": false,
+        "abstained": true,
+        "f1": 0.0
+      },
+      "Q7": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 0.75
+      },
+      "Q8": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q9": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 0.333
+      },
+      "Q10": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q11": {
+        "answerable": true,
+        "passed": false,
+        "abstained": true,
+        "f1": 0.0
+      },
+      "Q12": {
+        "answerable": true,
+        "passed": false,
+        "abstained": true,
+        "f1": 0.0
+      },
+      "Q13": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 0.667
+      },
+      "Q14": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q15": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q16": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 0.2
+      },
+      "Q17": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q18": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q19": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q20": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q21": {
+        "answerable": false,
+        "passed": true,
+        "abstained": true,
+        "f1": null
+      },
+      "Q22": {
+        "answerable": false,
+        "passed": true,
+        "abstained": true,
+        "f1": null
+      },
+      "Q23": {
+        "answerable": false,
+        "passed": true,
+        "abstained": true,
+        "f1": null
+      },
+      "Q24": {
+        "answerable": false,
+        "passed": true,
+        "abstained": true,
+        "f1": null
+      },
+      "Q25": {
+        "answerable": false,
+        "passed": true,
+        "abstained": true,
+        "f1": null
+      }
+    },
+    "model_b": {
+      "Q1": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q2": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q3": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q4": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q5": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 0.667
+      },
+      "Q6": {
+        "answerable": true,
+        "passed": false,
+        "abstained": true,
+        "f1": 0.0
+      },
+      "Q7": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 0.75
+      },
+      "Q8": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q9": {
+        "answerable": true,
+        "passed": false,
+        "abstained": true,
+        "f1": 0.0
+      },
+      "Q10": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q11": {
+        "answerable": true,
+        "passed": false,
+        "abstained": true,
+        "f1": 0.0
+      },
+      "Q12": {
+        "answerable": true,
+        "passed": false,
+        "abstained": true,
+        "f1": 0.0
+      },
+      "Q13": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 0.667
+      },
+      "Q14": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q15": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q16": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 0.118
+      },
+      "Q17": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q18": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q19": {
+        "answerable": true,
+        "passed": true,
+        "abstained": false,
+        "f1": 1.0
+      },
+      "Q20": {
+        "answerable": true,
+        "passed": false,
+        "abstained": true,
+        "f1": 0.0
+      },
+      "Q21": {
+        "answerable": false,
+        "passed": true,
+        "abstained": true,
+        "f1": null
+      },
+      "Q22": {
+        "answerable": false,
+        "passed": true,
+        "abstained": true,
+        "f1": null
+      },
+      "Q23": {
+        "answerable": false,
+        "passed": true,
+        "abstained": true,
+        "f1": null
+      },
+      "Q24": {
+        "answerable": false,
+        "passed": true,
+        "abstained": true,
+        "f1": null
+      },
+      "Q25": {
+        "answerable": false,
+        "passed": true,
+        "abstained": true,
+        "f1": null
+      }
+    }
+  },
+  "failures": [
+    {
+      "id": "Q5",
+      "model": "llama-3.3-70b-versatile",
+      "question": "What is the title of control AU-2 in NIST SP 800-53?",
+      "answer": "NOT IN DOCUMENT",
+      "reason": "Model failed despite the correct fact being present in its retrieved context (expected: Event Logging)",
+      "retrieval_at_fault": false
+    },
+    {
+      "id": "Q6",
+      "model": "llama-3.3-70b-versatile",
+      "question": "What is the title of control CP-9 in NIST SP 800-53?",
+      "answer": "NOT IN DOCUMENT",
+      "reason": "Model failed despite the correct fact being present in its retrieved context (expected: System Backup)",
+      "retrieval_at_fault": false
+    },
+    {
+      "id": "Q6",
+      "model": "llama-3.1-8b-instant",
+      "question": "What is the title of control CP-9 in NIST SP 800-53?",
+      "answer": "NOT IN DOCUMENT",
+      "reason": "Model failed despite the correct fact being present in its retrieved context (expected: System Backup)",
+      "retrieval_at_fault": false
+    },
+    {
+      "id": "Q9",
+      "model": "llama-3.1-8b-instant",
+      "question": "Per NIST SP 800-53 control AC-2, besides monitoring account use, what must be reviewed for compliance with account management requirements, at an organization-defined frequency?",
+      "answer": "NOT IN DOCUMENT",
+      "reason": "Model failed despite the correct fact being present in its retrieved context (expected: Accounts (accounts must be reviewed for compliance with account management requirements))",
+      "retrieval_at_fault": false
+    },
+    {
+      "id": "Q11",
+      "model": "llama-3.3-70b-versatile",
+      "question": "What is the famous opening line of Moby-Dick?",
+      "answer": "NOT IN DOCUMENT",
+      "reason": "Retrieval didn't surface the source page, so the model had no way to know (expected: Call me Ishmael.)",
+      "retrieval_at_fault": true
+    },
+    {
+      "id": "Q11",
+      "model": "llama-3.1-8b-instant",
+      "question": "What is the famous opening line of Moby-Dick?",
+      "answer": "NOT IN DOCUMENT",
+      "reason": "Retrieval didn't surface the source page, so the model had no way to know (expected: Call me Ishmael.)",
+      "retrieval_at_fault": true
+    },
+    {
+      "id": "Q12",
+      "model": "llama-3.3-70b-versatile",
+      "question": "Who is the narrator of Moby-Dick?",
+      "answer": "NOT IN DOCUMENT",
+      "reason": "Retrieval didn't surface the source page, so the model had no way to know (expected: Ishmael)",
+      "retrieval_at_fault": true
+    },
+    {
+      "id": "Q12",
+      "model": "llama-3.1-8b-instant",
+      "question": "Who is the narrator of Moby-Dick?",
+      "answer": "NOT IN DOCUMENT",
+      "reason": "Retrieval didn't surface the source page, so the model had no way to know (expected: Ishmael)",
+      "retrieval_at_fault": true
+    },
+    {
+      "id": "Q20",
+      "model": "llama-3.1-8b-instant",
+      "question": "What is the full title of Moby-Dick as given on its title page?",
+      "answer": "NOT IN DOCUMENT",
+      "reason": "Model failed despite the correct fact being present in its retrieved context (expected: Moby-Dick; or, The Whale)",
+      "retrieval_at_fault": false
+    }
+  ]
+}
