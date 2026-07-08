@@ -1,0 +1,427 @@
+[
+  {
+    "id": "Q1",
+    "question": "How many security and privacy control families does NIST SP 800-53 Revision 5 organize its controls into?",
+    "answerable": true,
+    "expected_answer": "20",
+    "key_terms": [
+      "20"
+    ],
+    "source_pdf": "nist_sp800-53r5.pdf",
+    "llm_only_answer": "NIST SP 800-53 Revision 5 organizes its controls into 20 security and privacy control families.",
+    "retrieved_chunks": [
+      "nist_sp800-53r5.pdf#p12 (sim=0.765)",
+      "nist_sp800-53r5.pdf#p10 (sim=0.750)",
+      "nist_sp800-53r5.pdf#p43 (sim=0.750)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q2",
+    "question": "In NIST SP 800-53, what does the two-letter control family identifier \"PS\" stand for?",
+    "answerable": true,
+    "expected_answer": "Personnel Security",
+    "key_terms": [
+      "personnel security"
+    ],
+    "source_pdf": "nist_sp800-53r5.pdf",
+    "llm_only_answer": "In NIST SP 800-53, the two-letter control family identifier \"PS\" stands for \"Personnel Security\".",
+    "retrieved_chunks": [
+      "nist_sp800-53r5.pdf#p17 (sim=0.679)",
+      "nist_sp800-53r5.pdf#p410 (sim=0.659)",
+      "nist_sp800-53r5.pdf#p418 (sim=0.654)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q3",
+    "question": "In NIST SP 800-53, what does the control family identifier \"PM\" stand for?",
+    "answerable": true,
+    "expected_answer": "Program Management",
+    "key_terms": [
+      "program management"
+    ],
+    "source_pdf": "nist_sp800-53r5.pdf",
+    "llm_only_answer": "In NIST SP 800-53, the control family identifier \"PM\" stands for \"Program Management\".",
+    "retrieved_chunks": [
+      "nist_sp800-53r5.pdf#p17 (sim=0.694)",
+      "nist_sp800-53r5.pdf#p410 (sim=0.662)",
+      "nist_sp800-53r5.pdf#p10 (sim=0.661)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q4",
+    "question": "What is the title of control AC-2 in NIST SP 800-53?",
+    "answerable": true,
+    "expected_answer": "Account Management",
+    "key_terms": [
+      "account management"
+    ],
+    "source_pdf": "nist_sp800-53r5.pdf",
+    "llm_only_answer": "I'm not aware of the specific details of control AC-2 in NIST SP 800-53. However, I can suggest that you check the NIST SP 800-53 document for the most accurate and up-to-date information.",
+    "retrieved_chunks": [
+      "nist_sp800-53r5.pdf#p17 (sim=0.690)",
+      "nist_sp800-53r5.pdf#p409 (sim=0.685)",
+      "nist_sp800-53r5.pdf#p410 (sim=0.681)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q5",
+    "question": "What is the title of control AU-2 in NIST SP 800-53?",
+    "answerable": true,
+    "expected_answer": "Event Logging",
+    "key_terms": [
+      "event logging"
+    ],
+    "source_pdf": "nist_sp800-53r5.pdf",
+    "llm_only_answer": "I'm not aware of the specific title of control AU-2 in NIST SP 800-53. However, I can suggest that you check the latest version of NIST SP 800-53 for the most accurate and up-to-date information.",
+    "retrieved_chunks": [
+      "nist_sp800-53r5.pdf#p17 (sim=0.690)",
+      "nist_sp800-53r5.pdf#p409 (sim=0.685)",
+      "nist_sp800-53r5.pdf#p410 (sim=0.681)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q6",
+    "question": "What is the title of control CP-9 in NIST SP 800-53?",
+    "answerable": true,
+    "expected_answer": "System Backup",
+    "key_terms": [
+      "system backup"
+    ],
+    "source_pdf": "nist_sp800-53r5.pdf",
+    "llm_only_answer": "I'm not aware of the specific details of control CP-9 in NIST SP 800-53. However, I can suggest that you check the NIST SP 800-53 document for the most accurate and up-to-date information.",
+    "retrieved_chunks": [
+      "nist_sp800-53r5.pdf#p17 (sim=0.682)",
+      "nist_sp800-53r5.pdf#p410 (sim=0.663)",
+      "nist_sp800-53r5.pdf#p409 (sim=0.650)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q7",
+    "question": "What is the title of control IA-2 in NIST SP 800-53?",
+    "answerable": true,
+    "expected_answer": "Identification and Authentication (organizational users)",
+    "key_terms": [
+      "identification and authentication"
+    ],
+    "source_pdf": "nist_sp800-53r5.pdf",
+    "llm_only_answer": "I'm not aware of the current information on NIST SP 800-53. However, I can suggest some possible sources where you can find the information. \n\nIf you need the most up-to-date information, I recommend checking the official NIST website or the latest version of NIST SP 800-53.",
+    "retrieved_chunks": [
+      "nist_sp800-53r5.pdf#p17 (sim=0.690)",
+      "nist_sp800-53r5.pdf#p409 (sim=0.685)",
+      "nist_sp800-53r5.pdf#p410 (sim=0.681)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q8",
+    "question": "What is the title of control SC-7 in NIST SP 800-53?",
+    "answerable": true,
+    "expected_answer": "Boundary Protection",
+    "key_terms": [
+      "boundary protection"
+    ],
+    "source_pdf": "nist_sp800-53r5.pdf",
+    "llm_only_answer": "I'm unable to verify the title of control SC-7 in NIST SP 800-53.",
+    "retrieved_chunks": [
+      "nist_sp800-53r5.pdf#p17 (sim=0.685)",
+      "nist_sp800-53r5.pdf#p410 (sim=0.668)",
+      "nist_sp800-53r5.pdf#p409 (sim=0.649)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q9",
+    "question": "Per NIST SP 800-53 control AC-2, besides monitoring account use, what must be reviewed for compliance with account management requirements, at an organization-defined frequency?",
+    "answerable": true,
+    "expected_answer": "Accounts (accounts must be reviewed for compliance with account management requirements)",
+    "key_terms": [
+      "reviewed for compliance",
+      "review accounts"
+    ],
+    "source_pdf": "nist_sp800-53r5.pdf",
+    "llm_only_answer": "According to NIST SP 800-53 control AC-2, besides monitoring account use, the organization must review account management requirements, specifically account creations, modifications, and terminations, at an organization-defined frequency.",
+    "retrieved_chunks": [
+      "nist_sp800-53r5.pdf#p46 (sim=0.724)",
+      "nist_sp800-53r5.pdf#p110 (sim=0.719)",
+      "nist_sp800-53r5.pdf#p176 (sim=0.703)"
+    ],
+    "rag_answer": "(Source: page 46) \nj. Review accounts for compliance with account management requirements [Assignment: organization-defined frequency];"
+  },
+  {
+    "id": "Q10",
+    "question": "What publication date is listed on the cover of NIST SP 800-53 Revision 5?",
+    "answerable": true,
+    "expected_answer": "September 2020",
+    "key_terms": [
+      "september 2020"
+    ],
+    "source_pdf": "nist_sp800-53r5.pdf",
+    "llm_only_answer": "I do not have information on the publication date of NIST SP 800-53 Revision 5.",
+    "retrieved_chunks": [
+      "nist_sp800-53r5.pdf#p6 (sim=0.729)",
+      "nist_sp800-53r5.pdf#p19 (sim=0.678)",
+      "nist_sp800-53r5.pdf#p409 (sim=0.668)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q11",
+    "question": "What is the famous opening line of Moby-Dick?",
+    "answerable": true,
+    "expected_answer": "Call me Ishmael.",
+    "key_terms": [
+      "call me ishmael"
+    ],
+    "source_pdf": "moby_dick.pdf",
+    "llm_only_answer": "The famous opening line of Moby-Dick by Herman Melville is: \n\n\"Call me Ishmael.\"",
+    "retrieved_chunks": [
+      "moby_dick.pdf#p3 (sim=0.628)",
+      "moby_dick.pdf#p4 (sim=0.619)",
+      "moby_dick.pdf#p5 (sim=0.600)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q12",
+    "question": "Who is the narrator of Moby-Dick?",
+    "answerable": true,
+    "expected_answer": "Ishmael",
+    "key_terms": [
+      "ishmael"
+    ],
+    "source_pdf": "moby_dick.pdf",
+    "llm_only_answer": "The narrator of Moby-Dick is Ishmael.",
+    "retrieved_chunks": [
+      "moby_dick.pdf#p3 (sim=0.609)",
+      "moby_dick.pdf#p298 (sim=0.593)",
+      "moby_dick.pdf#p1 (sim=0.592)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q13",
+    "question": "What is the name of the whaling ship in Moby-Dick?",
+    "answerable": true,
+    "expected_answer": "The Pequod",
+    "key_terms": [
+      "pequod"
+    ],
+    "source_pdf": "moby_dick.pdf",
+    "llm_only_answer": "The name of the whaling ship in Moby-Dick is the Pequod.",
+    "retrieved_chunks": [
+      "moby_dick.pdf#p328 (sim=0.766)",
+      "moby_dick.pdf#p137 (sim=0.736)",
+      "moby_dick.pdf#p116 (sim=0.736)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q14",
+    "question": "Who is the first (chief) mate of the Pequod in Moby-Dick?",
+    "answerable": true,
+    "expected_answer": "Starbuck",
+    "key_terms": [
+      "starbuck"
+    ],
+    "source_pdf": "moby_dick.pdf",
+    "llm_only_answer": "The first (chief) mate of the Pequod in Moby-Dick is Starbuck.",
+    "retrieved_chunks": [
+      "moby_dick.pdf#p121 (sim=0.663)",
+      "moby_dick.pdf#p148 (sim=0.661)",
+      "moby_dick.pdf#p158 (sim=0.649)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q15",
+    "question": "Who is the harpooner and close companion Ishmael meets and shares a bed with at the Spouter-Inn?",
+    "answerable": true,
+    "expected_answer": "Queequeg",
+    "key_terms": [
+      "queequeg"
+    ],
+    "source_pdf": "moby_dick.pdf",
+    "llm_only_answer": "Queequeg.",
+    "retrieved_chunks": [
+      "moby_dick.pdf#p37 (sim=0.749)",
+      "moby_dick.pdf#p33 (sim=0.728)",
+      "moby_dick.pdf#p31 (sim=0.724)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q16",
+    "question": "According to Captain Ahab himself, what did Moby Dick do to him?",
+    "answerable": true,
+    "expected_answer": "Moby Dick dismasted him (bit off / took his leg)",
+    "key_terms": [
+      "dismasted",
+      "took his leg",
+      "bit off his leg",
+      "took off his leg",
+      "took off my leg",
+      "bitten off"
+    ],
+    "source_pdf": "moby_dick.pdf",
+    "llm_only_answer": "According to Captain Ahab in Herman Melville's novel \"Moby Dick\", Moby Dick, the white sperm whale, had bitten off Ahab's leg in a previous encounter.",
+    "retrieved_chunks": [
+      "moby_dick.pdf#p205 (sim=0.633)",
+      "moby_dick.pdf#p401 (sim=0.627)",
+      "moby_dick.pdf#p64 (sim=0.616)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q17",
+    "question": "What is the title of Chapter 28 in Moby-Dick?",
+    "answerable": true,
+    "expected_answer": "Ahab",
+    "key_terms": [
+      "ahab"
+    ],
+    "source_pdf": "moby_dick.pdf",
+    "llm_only_answer": "I'm not aware of the specific title of Chapter 28 in Moby-Dick by Herman Melville.",
+    "retrieved_chunks": [
+      "nist_sp800-53r5.pdf#p413 (sim=0.667)",
+      "nist_sp800-53r5.pdf#p409 (sim=0.666)",
+      "nist_sp800-53r5.pdf#p415 (sim=0.658)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q18",
+    "question": "What is the title of Chapter 110 in Moby-Dick?",
+    "answerable": true,
+    "expected_answer": "Queequeg in His Coffin",
+    "key_terms": [
+      "queequeg in his coffin"
+    ],
+    "source_pdf": "moby_dick.pdf",
+    "llm_only_answer": "I do not have information about the title of Chapter 110 in Moby-Dick.",
+    "retrieved_chunks": [
+      "moby_dick.pdf#p7 (sim=0.680)",
+      "moby_dick.pdf#p6 (sim=0.671)",
+      "nist_sp800-53r5.pdf#p409 (sim=0.639)"
+    ],
+    "rag_answer": "Queequeg in His Coffin. (Source: page 6)"
+  },
+  {
+    "id": "Q19",
+    "question": "Who is the author of Moby-Dick?",
+    "answerable": true,
+    "expected_answer": "Herman Melville",
+    "key_terms": [
+      "herman melville"
+    ],
+    "source_pdf": "moby_dick.pdf",
+    "llm_only_answer": "The author of Moby-Dick is Herman Melville.",
+    "retrieved_chunks": [
+      "moby_dick.pdf#p3 (sim=0.634)",
+      "moby_dick.pdf#p1 (sim=0.629)",
+      "nist_sp800-53r5.pdf#p409 (sim=0.625)"
+    ],
+    "rag_answer": "(Source: moby_dick.pdf, page 1)\nBy Herman Melville"
+  },
+  {
+    "id": "Q20",
+    "question": "What is the full title of Moby-Dick as given on its title page?",
+    "answerable": true,
+    "expected_answer": "Moby-Dick; or, The Whale",
+    "key_terms": [
+      "moby-dick; or, the whale",
+      "moby dick; or, the whale",
+      "moby-dick, or, the whale",
+      "moby-dick or the whale",
+      "moby dick or the whale"
+    ],
+    "source_pdf": "moby_dick.pdf",
+    "llm_only_answer": "The full title of Moby-Dick as given on its title page is \"Moby-Dick; or, The Whale.\"",
+    "retrieved_chunks": [
+      "moby_dick.pdf#p1 (sim=0.671)",
+      "moby_dick.pdf#p3 (sim=0.666)",
+      "moby_dick.pdf#p5 (sim=0.644)"
+    ],
+    "rag_answer": "MOBY-DICK; or, THE WHALE. (Source: page 1)"
+  },
+  {
+    "id": "Q21",
+    "question": "According to NIST SP 800-53, what is the exact number of days after which a user password must expire?",
+    "answerable": false,
+    "expected_answer": "NOT IN DOCUMENT — NIST SP 800-53 deliberately leaves this as an organization-defined parameter, not a fixed number",
+    "key_terms": null,
+    "source_pdf": "nist_sp800-53r5.pdf",
+    "llm_only_answer": "I cannot verify the exact number of days after which a user password must expire according to NIST SP 800-53.",
+    "retrieved_chunks": [
+      "nist_sp800-53r5.pdf#p410 (sim=0.690)",
+      "nist_sp800-53r5.pdf#p71 (sim=0.683)",
+      "nist_sp800-53r5.pdf#p173 (sim=0.678)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q22",
+    "question": "What CVE identifier does NIST SP 800-53's control RA-5 (Vulnerability Monitoring and Scanning) cite as an example vulnerability?",
+    "answerable": false,
+    "expected_answer": "NOT IN DOCUMENT — RA-5 discusses vulnerability scanning generically and cites no specific CVE numbers",
+    "key_terms": null,
+    "source_pdf": "nist_sp800-53r5.pdf",
+    "llm_only_answer": "I'm unable to verify the CVE identifier that NIST SP 800-53's control RA-5 (Vulnerability Monitoring and Scanning) cites as an example vulnerability.",
+    "retrieved_chunks": [
+      "nist_sp800-53r5.pdf#p419 (sim=0.728)",
+      "nist_sp800-53r5.pdf#p17 (sim=0.728)",
+      "nist_sp800-53r5.pdf#p85 (sim=0.714)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q23",
+    "question": "What is the name of Captain Ahab's wife in Moby-Dick?",
+    "answerable": false,
+    "expected_answer": "NOT IN DOCUMENT — Ahab's wife and child are mentioned in passing (Chapter 132, \"The Symphony\") but she is never named",
+    "key_terms": null,
+    "source_pdf": "moby_dick.pdf",
+    "llm_only_answer": "The name of Captain Ahab's wife in Moby-Dick is not explicitly mentioned in the novel. However, it is mentioned that she died at sea, and Ahab's obsession with Moby-Dick is partly driven by his grief and anger over her death.",
+    "retrieved_chunks": [
+      "moby_dick.pdf#p1 (sim=0.662)",
+      "moby_dick.pdf#p3 (sim=0.656)",
+      "moby_dick.pdf#p5 (sim=0.654)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q24",
+    "question": "In what exact year is the story of Moby-Dick stated to take place?",
+    "answerable": false,
+    "expected_answer": "NOT IN DOCUMENT — the novel deliberately never gives an exact year",
+    "key_terms": null,
+    "source_pdf": "moby_dick.pdf",
+    "llm_only_answer": "The story of Moby-Dick is stated to take place in 1841.",
+    "retrieved_chunks": [
+      "moby_dick.pdf#p370 (sim=0.629)",
+      "nist_sp800-53r5.pdf#p418 (sim=0.626)",
+      "nist_sp800-53r5.pdf#p409 (sim=0.620)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  },
+  {
+    "id": "Q25",
+    "question": "According to NIST SP 800-53, what account management policy did Captain Ahab establish for the Pequod's crew?",
+    "answerable": false,
+    "expected_answer": "NOT IN DOCUMENT — nonsensical cross-document mixing; NIST SP 800-53 and Moby-Dick share no content",
+    "key_terms": null,
+    "source_pdf": "none",
+    "llm_only_answer": "I'm not aware of any information about Captain Ahab establishing an account management policy for the Pequod's crew according to NIST SP 800-53. NIST SP 800-53 is a US government standard for information security, and it does not appear to be related to the novel \"Moby-Dick\" by Herman Melville, which features Captain Ahab.",
+    "retrieved_chunks": [
+      "nist_sp800-53r5.pdf#p176 (sim=0.651)",
+      "nist_sp800-53r5.pdf#p189 (sim=0.649)",
+      "nist_sp800-53r5.pdf#p158 (sim=0.645)"
+    ],
+    "rag_answer": "NOT IN DOCUMENT"
+  }
+]

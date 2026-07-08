@@ -1,0 +1,236 @@
+{
+  "rows": [
+    {
+      "id": "Q1",
+      "question": "How many security and privacy control families does NIST SP 800-53 Revision 5 organize its controls into?",
+      "answerable": true,
+      "llm_only_correct": true,
+      "llm_only_citation": false,
+      "rag_correct": true,
+      "rag_citation": true
+    },
+    {
+      "id": "Q2",
+      "question": "In NIST SP 800-53, what does the two-letter control family identifier \"PS\" stand for?",
+      "answerable": true,
+      "llm_only_correct": true,
+      "llm_only_citation": false,
+      "rag_correct": true,
+      "rag_citation": true
+    },
+    {
+      "id": "Q3",
+      "question": "In NIST SP 800-53, what does the control family identifier \"PM\" stand for?",
+      "answerable": true,
+      "llm_only_correct": true,
+      "llm_only_citation": false,
+      "rag_correct": true,
+      "rag_citation": true
+    },
+    {
+      "id": "Q4",
+      "question": "What is the title of control AC-2 in NIST SP 800-53?",
+      "answerable": true,
+      "llm_only_correct": false,
+      "llm_only_citation": false,
+      "rag_correct": false,
+      "rag_citation": false
+    },
+    {
+      "id": "Q5",
+      "question": "What is the title of control AU-2 in NIST SP 800-53?",
+      "answerable": true,
+      "llm_only_correct": false,
+      "llm_only_citation": false,
+      "rag_correct": false,
+      "rag_citation": false
+    },
+    {
+      "id": "Q6",
+      "question": "What is the title of control CP-9 in NIST SP 800-53?",
+      "answerable": true,
+      "llm_only_correct": false,
+      "llm_only_citation": false,
+      "rag_correct": false,
+      "rag_citation": false
+    },
+    {
+      "id": "Q7",
+      "question": "What is the title of control IA-2 in NIST SP 800-53?",
+      "answerable": true,
+      "llm_only_correct": false,
+      "llm_only_citation": false,
+      "rag_correct": false,
+      "rag_citation": false
+    },
+    {
+      "id": "Q8",
+      "question": "What is the title of control SC-7 in NIST SP 800-53?",
+      "answerable": true,
+      "llm_only_correct": false,
+      "llm_only_citation": false,
+      "rag_correct": false,
+      "rag_citation": false
+    },
+    {
+      "id": "Q9",
+      "question": "Per NIST SP 800-53 control AC-2, besides monitoring account use, what must be reviewed for compliance with account management requirements, at an organization-defined frequency?",
+      "answerable": true,
+      "llm_only_correct": false,
+      "llm_only_citation": false,
+      "rag_correct": false,
+      "rag_citation": false
+    },
+    {
+      "id": "Q10",
+      "question": "What publication date is listed on the cover of NIST SP 800-53 Revision 5?",
+      "answerable": true,
+      "llm_only_correct": false,
+      "llm_only_citation": false,
+      "rag_correct": false,
+      "rag_citation": false
+    },
+    {
+      "id": "Q11",
+      "question": "What is the famous opening line of Moby-Dick?",
+      "answerable": true,
+      "llm_only_correct": true,
+      "llm_only_citation": false,
+      "rag_correct": false,
+      "rag_citation": false
+    },
+    {
+      "id": "Q12",
+      "question": "Who is the narrator of Moby-Dick?",
+      "answerable": true,
+      "llm_only_correct": true,
+      "llm_only_citation": false,
+      "rag_correct": false,
+      "rag_citation": false
+    },
+    {
+      "id": "Q13",
+      "question": "What is the name of the whaling ship in Moby-Dick?",
+      "answerable": true,
+      "llm_only_correct": true,
+      "llm_only_citation": false,
+      "rag_correct": false,
+      "rag_citation": false
+    },
+    {
+      "id": "Q14",
+      "question": "Who is the first (chief) mate of the Pequod in Moby-Dick?",
+      "answerable": true,
+      "llm_only_correct": true,
+      "llm_only_citation": false,
+      "rag_correct": false,
+      "rag_citation": false
+    },
+    {
+      "id": "Q15",
+      "question": "Who is the harpooner and close companion Ishmael meets and shares a bed with at the Spouter-Inn?",
+      "answerable": true,
+      "llm_only_correct": true,
+      "llm_only_citation": false,
+      "rag_correct": false,
+      "rag_citation": false
+    },
+    {
+      "id": "Q16",
+      "question": "According to Captain Ahab himself, what did Moby Dick do to him?",
+      "answerable": true,
+      "llm_only_correct": true,
+      "llm_only_citation": false,
+      "rag_correct": false,
+      "rag_citation": false
+    },
+    {
+      "id": "Q17",
+      "question": "What is the title of Chapter 28 in Moby-Dick?",
+      "answerable": true,
+      "llm_only_correct": false,
+      "llm_only_citation": false,
+      "rag_correct": false,
+      "rag_citation": false
+    },
+    {
+      "id": "Q18",
+      "question": "What is the title of Chapter 110 in Moby-Dick?",
+      "answerable": true,
+      "llm_only_correct": false,
+      "llm_only_citation": false,
+      "rag_correct": true,
+      "rag_citation": true
+    },
+    {
+      "id": "Q19",
+      "question": "Who is the author of Moby-Dick?",
+      "answerable": true,
+      "llm_only_correct": true,
+      "llm_only_citation": false,
+      "rag_correct": true,
+      "rag_citation": true
+    },
+    {
+      "id": "Q20",
+      "question": "What is the full title of Moby-Dick as given on its title page?",
+      "answerable": true,
+      "llm_only_correct": true,
+      "llm_only_citation": false,
+      "rag_correct": true,
+      "rag_citation": true
+    },
+    {
+      "id": "Q21",
+      "question": "According to NIST SP 800-53, what is the exact number of days after which a user password must expire?",
+      "answerable": false,
+      "llm_only_correct": true,
+      "llm_only_citation": false,
+      "rag_correct": true,
+      "rag_citation": false
+    },
+    {
+      "id": "Q22",
+      "question": "What CVE identifier does NIST SP 800-53's control RA-5 (Vulnerability Monitoring and Scanning) cite as an example vulnerability?",
+      "answerable": false,
+      "llm_only_correct": true,
+      "llm_only_citation": false,
+      "rag_correct": true,
+      "rag_citation": false
+    },
+    {
+      "id": "Q23",
+      "question": "What is the name of Captain Ahab's wife in Moby-Dick?",
+      "answerable": false,
+      "llm_only_correct": false,
+      "llm_only_citation": false,
+      "rag_correct": true,
+      "rag_citation": false
+    },
+    {
+      "id": "Q24",
+      "question": "In what exact year is the story of Moby-Dick stated to take place?",
+      "answerable": false,
+      "llm_only_correct": false,
+      "llm_only_citation": false,
+      "rag_correct": true,
+      "rag_citation": false
+    },
+    {
+      "id": "Q25",
+      "question": "According to NIST SP 800-53, what account management policy did Captain Ahab establish for the Pequod's crew?",
+      "answerable": false,
+      "llm_only_correct": true,
+      "llm_only_citation": false,
+      "rag_correct": true,
+      "rag_citation": false
+    }
+  ],
+  "summary": {
+    "n": 25,
+    "llm_only_correct": 14,
+    "rag_correct": 11,
+    "llm_only_citation": 0,
+    "rag_citation": 6
+  }
+}

@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .env
 .DS_Store
+
+# Regenerable RAG caches — large derived data, rebuilt from source docs on run
+embeddings_cache*.json
+llm_only_cache*.json
