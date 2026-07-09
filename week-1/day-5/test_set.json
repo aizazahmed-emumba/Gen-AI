@@ -1,0 +1,82 @@
+[
+  {
+    "id": "Q1",
+    "question": "What does Gregor Samsa discover he has transformed into when he wakes up?",
+    "doc_position": "start (~0%)",
+    "answerable": true,
+    "expected_answer": "A horrible vermin / giant insect",
+    "key_terms": ["vermin", "insect", "bug", "beetle"]
+  },
+  {
+    "id": "Q2",
+    "question": "What is Gregor Samsa's occupation?",
+    "doc_position": "start (~0%)",
+    "answerable": true,
+    "expected_answer": "A travelling salesman",
+    "key_terms": ["travelling salesman", "traveling salesman", "commercial traveller", "salesman"]
+  },
+  {
+    "id": "Q3",
+    "question": "What is the name of Gregor's sister?",
+    "doc_position": "early (~19%)",
+    "answerable": true,
+    "expected_answer": "Grete",
+    "key_terms": ["grete"]
+  },
+  {
+    "id": "Q4",
+    "question": "What musical instrument does Gregor's sister play?",
+    "doc_position": "middle (~44%)",
+    "answerable": true,
+    "expected_answer": "The violin",
+    "key_terms": ["violin"]
+  },
+  {
+    "id": "Q5",
+    "question": "What does Gregor's father throw at him, injuring him?",
+    "doc_position": "middle-late (~65%)",
+    "answerable": true,
+    "expected_answer": "Apples (an apple lodges in his back)",
+    "key_terms": ["apple"]
+  },
+  {
+    "id": "Q6",
+    "question": "How many lodgers (gentlemen) does the Samsa family take into their flat?",
+    "doc_position": "late (~68%)",
+    "answerable": true,
+    "expected_answer": "Three",
+    "key_terms": ["three"]
+  },
+  {
+    "id": "Q7",
+    "question": "What ultimately happens to Gregor at the end of the story?",
+    "doc_position": "late (~91%)",
+    "answerable": true,
+    "expected_answer": "He dies (breathes his last)",
+    "key_terms": ["dies", "died", "dead", "death", "last breath", "breathed his last", "passes away", "passed away"]
+  },
+  {
+    "id": "Q8",
+    "question": "What do the members of the Samsa family do shortly after Gregor's death?",
+    "doc_position": "end (~98%)",
+    "answerable": true,
+    "expected_answer": "Take a tram trip out to the countryside",
+    "key_terms": ["tram", "countryside", "country", "trip", "excursion"]
+  },
+  {
+    "id": "Q9",
+    "question": "In what city is The Metamorphosis set?",
+    "doc_position": "trap (never stated)",
+    "answerable": false,
+    "expected_answer": "NOT STATED — the story never names the city",
+    "key_terms": null
+  },
+  {
+    "id": "Q10",
+    "question": "What is the first name of Gregor's father, Mr. Samsa?",
+    "doc_position": "trap (never stated)",
+    "answerable": false,
+    "expected_answer": "NOT STATED — the father is only ever called 'Mr. Samsa'; no first name is given",
+    "key_terms": null
+  }
+]

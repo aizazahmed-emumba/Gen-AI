@@ -1,0 +1,205 @@
+[
+  {
+    "id": "Q1",
+    "question": "What does Gregor Samsa discover he has transformed into when he wakes up?",
+    "doc_position": "start (~0%)",
+    "answerable": true,
+    "expected_answer": "A horrible vermin / giant insect",
+    "key_terms": [
+      "vermin",
+      "insect",
+      "bug",
+      "beetle"
+    ],
+    "retrieved_ids": [
+      "chunk-0",
+      "chunk-47",
+      "chunk-1",
+      "chunk-91"
+    ],
+    "rag_answer": "He has transformed into a horrible vermin.",
+    "fulltext_answer": "Gregor Samsa discovers that he has transformed into a \"horrible vermin\" when he wakes up.",
+    "fulltext_truncated": true
+  },
+  {
+    "id": "Q2",
+    "question": "What is Gregor Samsa's occupation?",
+    "doc_position": "start (~0%)",
+    "answerable": true,
+    "expected_answer": "A travelling salesman",
+    "key_terms": [
+      "travelling salesman",
+      "traveling salesman",
+      "commercial traveller",
+      "salesman"
+    ],
+    "retrieved_ids": [
+      "chunk-0",
+      "chunk-64",
+      "chunk-99",
+      "chunk-68"
+    ],
+    "rag_answer": "Gregor Samsa is a travelling salesman.",
+    "fulltext_answer": "Gregor Samsa is a travelling salesman.",
+    "fulltext_truncated": true
+  },
+  {
+    "id": "Q3",
+    "question": "What is the name of Gregor's sister?",
+    "doc_position": "early (~19%)",
+    "answerable": true,
+    "expected_answer": "Grete",
+    "key_terms": [
+      "grete"
+    ],
+    "retrieved_ids": [
+      "chunk-83",
+      "chunk-64",
+      "chunk-102",
+      "chunk-70"
+    ],
+    "rag_answer": "NOT IN DOCUMENT",
+    "fulltext_answer": "Gregor's sister is named Grete.",
+    "fulltext_truncated": true
+  },
+  {
+    "id": "Q4",
+    "question": "What musical instrument does Gregor's sister play?",
+    "doc_position": "middle (~44%)",
+    "answerable": true,
+    "expected_answer": "The violin",
+    "key_terms": [
+      "violin"
+    ],
+    "retrieved_ids": [
+      "chunk-64",
+      "chunk-120",
+      "chunk-123",
+      "chunk-124"
+    ],
+    "rag_answer": "Gregor's sister plays the violin.",
+    "fulltext_answer": "NOT IN DOCUMENT",
+    "fulltext_truncated": true
+  },
+  {
+    "id": "Q5",
+    "question": "What does Gregor's father throw at him, injuring him?",
+    "doc_position": "middle-late (~65%)",
+    "answerable": true,
+    "expected_answer": "Apples (an apple lodges in his back)",
+    "key_terms": [
+      "apple"
+    ],
+    "retrieved_ids": [
+      "chunk-95",
+      "chunk-43",
+      "chunk-97",
+      "chunk-96"
+    ],
+    "rag_answer": "Apples.",
+    "fulltext_answer": "NOT IN DOCUMENT",
+    "fulltext_truncated": true
+  },
+  {
+    "id": "Q6",
+    "question": "How many lodgers (gentlemen) does the Samsa family take into their flat?",
+    "doc_position": "late (~68%)",
+    "answerable": true,
+    "expected_answer": "Three",
+    "key_terms": [
+      "three"
+    ],
+    "retrieved_ids": [
+      "chunk-141",
+      "chunk-139",
+      "chunk-144",
+      "chunk-140"
+    ],
+    "rag_answer": "NOT IN DOCUMENT.",
+    "fulltext_answer": "NOT IN DOCUMENT",
+    "fulltext_truncated": true
+  },
+  {
+    "id": "Q7",
+    "question": "What ultimately happens to Gregor at the end of the story?",
+    "doc_position": "late (~91%)",
+    "answerable": true,
+    "expected_answer": "He dies (breathes his last)",
+    "key_terms": [
+      "dies",
+      "died",
+      "dead",
+      "death",
+      "last breath",
+      "breathed his last",
+      "passes away",
+      "passed away"
+    ],
+    "retrieved_ids": [
+      "chunk-133",
+      "chunk-39",
+      "chunk-40",
+      "chunk-52"
+    ],
+    "rag_answer": "NOT IN DOCUMENT",
+    "fulltext_answer": "NOT IN DOCUMENT",
+    "fulltext_truncated": true
+  },
+  {
+    "id": "Q8",
+    "question": "What do the members of the Samsa family do shortly after Gregor's death?",
+    "doc_position": "end (~98%)",
+    "answerable": true,
+    "expected_answer": "Take a tram trip out to the countryside",
+    "key_terms": [
+      "tram",
+      "countryside",
+      "country",
+      "trip",
+      "excursion"
+    ],
+    "retrieved_ids": [
+      "chunk-64",
+      "chunk-102",
+      "chunk-138",
+      "chunk-135"
+    ],
+    "rag_answer": "They go to Gregor's room, where they find his corpse, and then Grete shouts loudly into the darkness of the bedrooms to inform the rest of the family.",
+    "fulltext_answer": "NOT IN DOCUMENT",
+    "fulltext_truncated": true
+  },
+  {
+    "id": "Q9",
+    "question": "In what city is The Metamorphosis set?",
+    "doc_position": "trap (never stated)",
+    "answerable": false,
+    "expected_answer": "NOT STATED — the story never names the city",
+    "key_terms": null,
+    "retrieved_ids": [
+      "chunk-69",
+      "chunk-0",
+      "chunk-145",
+      "chunk-138"
+    ],
+    "rag_answer": "NOT IN DOCUMENT",
+    "fulltext_answer": "NOT IN DOCUMENT",
+    "fulltext_truncated": true
+  },
+  {
+    "id": "Q10",
+    "question": "What is the first name of Gregor's father, Mr. Samsa?",
+    "doc_position": "trap (never stated)",
+    "answerable": false,
+    "expected_answer": "NOT STATED — the father is only ever called 'Mr. Samsa'; no first name is given",
+    "key_terms": null,
+    "retrieved_ids": [
+      "chunk-93",
+      "chunk-99",
+      "chunk-74",
+      "chunk-64"
+    ],
+    "rag_answer": "NOT IN DOCUMENT",
+    "fulltext_answer": "NOT IN DOCUMENT",
+    "fulltext_truncated": true
+  }
+]

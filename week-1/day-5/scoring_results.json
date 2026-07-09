@@ -1,0 +1,87 @@
+{
+  "rows": [
+    {
+      "id": "Q1",
+      "position": "start (~0%)",
+      "rag_correct": true,
+      "rag_label": "correct",
+      "full_correct": true,
+      "full_label": "correct"
+    },
+    {
+      "id": "Q2",
+      "position": "start (~0%)",
+      "rag_correct": true,
+      "rag_label": "correct",
+      "full_correct": true,
+      "full_label": "correct"
+    },
+    {
+      "id": "Q3",
+      "position": "early (~19%)",
+      "rag_correct": false,
+      "rag_label": "missed-info",
+      "full_correct": true,
+      "full_label": "correct"
+    },
+    {
+      "id": "Q4",
+      "position": "middle (~44%)",
+      "rag_correct": true,
+      "rag_label": "correct",
+      "full_correct": false,
+      "full_label": "truncation"
+    },
+    {
+      "id": "Q5",
+      "position": "middle-late (~65%)",
+      "rag_correct": true,
+      "rag_label": "correct",
+      "full_correct": false,
+      "full_label": "truncation"
+    },
+    {
+      "id": "Q6",
+      "position": "late (~68%)",
+      "rag_correct": false,
+      "rag_label": "missed-info",
+      "full_correct": false,
+      "full_label": "truncation"
+    },
+    {
+      "id": "Q7",
+      "position": "late (~91%)",
+      "rag_correct": false,
+      "rag_label": "missed-info",
+      "full_correct": false,
+      "full_label": "truncation"
+    },
+    {
+      "id": "Q8",
+      "position": "end (~98%)",
+      "rag_correct": false,
+      "rag_label": "hallucination",
+      "full_correct": false,
+      "full_label": "truncation"
+    },
+    {
+      "id": "Q9",
+      "position": "trap (never stated)",
+      "rag_correct": true,
+      "rag_label": "correct",
+      "full_correct": true,
+      "full_label": "correct"
+    },
+    {
+      "id": "Q10",
+      "position": "trap (never stated)",
+      "rag_correct": true,
+      "rag_label": "correct",
+      "full_correct": true,
+      "full_label": "correct"
+    }
+  ],
+  "rag_correct": 6,
+  "full_correct": 5,
+  "n": 10
+}
