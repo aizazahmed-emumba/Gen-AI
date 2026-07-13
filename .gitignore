@@ -10,3 +10,4 @@ llm_only_cache*.json
 
 # Chroma vector DB store — derived data, rebuilt from source docs on run
 chroma_db/
+explore_db/

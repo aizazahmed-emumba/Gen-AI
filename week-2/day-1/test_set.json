@@ -1,0 +1,182 @@
+[
+  {
+    "id": "Q1",
+    "question": "What does Gregor Samsa discover he has transformed into when he wakes up?",
+    "doc_position": "start (~0%)",
+    "answerable": true,
+    "expected_answer": "A horrible vermin / giant insect",
+    "key_terms": ["vermin", "insect", "bug", "beetle"],
+    "gold_phrases": ["transformed in his bed into a horrible vermin", "horrible vermin"]
+  },
+  {
+    "id": "Q2",
+    "question": "What is Gregor Samsa's occupation?",
+    "doc_position": "start (~0%)",
+    "answerable": true,
+    "expected_answer": "A travelling salesman",
+    "key_terms": ["travelling salesman", "traveling salesman", "salesman"],
+    "gold_phrases": ["Samsa was a travelling salesman"]
+  },
+  {
+    "id": "Q3",
+    "question": "What is the name of Gregor's sister?",
+    "doc_position": "early (~19%)",
+    "answerable": true,
+    "expected_answer": "Grete",
+    "key_terms": ["grete"],
+    "gold_phrases": ["Grete"]
+  },
+  {
+    "id": "Q4",
+    "question": "What musical instrument does Gregor's sister play?",
+    "doc_position": "middle (~44%)",
+    "answerable": true,
+    "expected_answer": "The violin",
+    "key_terms": ["violin"],
+    "gold_phrases": ["violin"]
+  },
+  {
+    "id": "Q5",
+    "question": "What does Gregor's father throw at him, injuring him?",
+    "doc_position": "middle-late (~65%)",
+    "answerable": true,
+    "expected_answer": "Apples (an apple lodges in his back)",
+    "key_terms": ["apple"],
+    "gold_phrases": ["It was an apple", "one apple after another", "apple lodged"]
+  },
+  {
+    "id": "Q6",
+    "question": "How many lodgers (gentlemen) does the Samsa family take into their flat?",
+    "doc_position": "late (~68%)",
+    "answerable": true,
+    "expected_answer": "Three",
+    "key_terms": ["three"],
+    "gold_phrases": ["rented out to three gentlemen", "three gentlemen"]
+  },
+  {
+    "id": "Q7",
+    "question": "What ultimately happens to Gregor at the end of the story?",
+    "doc_position": "late (~91%)",
+    "answerable": true,
+    "expected_answer": "He dies (breathes his last)",
+    "key_terms": ["dies", "died", "dead", "death", "last breath"],
+    "gold_phrases": ["his last breath flowed weakly from his nostrils", "last breath"]
+  },
+  {
+    "id": "Q8",
+    "question": "What do the members of the Samsa family do shortly after Gregor's death?",
+    "doc_position": "end (~98%)",
+    "answerable": true,
+    "expected_answer": "Take a tram trip out to the countryside",
+    "key_terms": ["tram", "countryside", "country", "trip", "excursion"],
+    "gold_phrases": ["took the tram out to the open country", "took the tram"]
+  },
+  {
+    "id": "Q9",
+    "question": "In what city is The Metamorphosis set?",
+    "doc_position": "trap (never stated)",
+    "answerable": false,
+    "expected_answer": "NOT STATED — the story never names the city",
+    "key_terms": null,
+    "gold_phrases": null
+  },
+  {
+    "id": "Q10",
+    "question": "What is the first name of Gregor's father, Mr. Samsa?",
+    "doc_position": "trap (never stated)",
+    "answerable": false,
+    "expected_answer": "NOT STATED — the father is only ever called 'Mr. Samsa'; no first name is given",
+    "key_terms": null,
+    "gold_phrases": null
+  },
+  {
+    "id": "Q11",
+    "question": "What insulting name does the charwoman call Gregor?",
+    "doc_position": "late (~75%)",
+    "answerable": true,
+    "expected_answer": "Old dung-beetle",
+    "key_terms": ["dung-beetle", "dung beetle"],
+    "gold_phrases": ["dung-beetle"]
+  },
+  {
+    "id": "Q12",
+    "question": "Who comes to the Samsas' flat to find out why Gregor has not left for work?",
+    "doc_position": "early (~12%)",
+    "answerable": true,
+    "expected_answer": "The chief clerk (from Gregor's firm)",
+    "key_terms": ["chief clerk"],
+    "gold_phrases": ["chief clerk"]
+  },
+  {
+    "id": "Q13",
+    "question": "What is depicted in the framed picture hanging in Gregor's room?",
+    "doc_position": "start (~1%)",
+    "answerable": true,
+    "expected_answer": "A lady dressed in furs (fur hat, fur boa, fur muff)",
+    "key_terms": ["fur", "lady", "muff"],
+    "gold_phrases": ["fur muff", "fur boa", "fur hat"]
+  },
+  {
+    "id": "Q14",
+    "question": "What kind of food does Gregor find he now prefers to eat in his transformed state?",
+    "doc_position": "middle (~38%)",
+    "answerable": true,
+    "expected_answer": "Old, half-rotten food — especially some cheese he'd have called inedible before",
+    "key_terms": ["cheese", "rotten", "half-rotten"],
+    "gold_phrases": ["some cheese that Gregor", "half-rotten"]
+  },
+  {
+    "id": "Q15",
+    "question": "What does Gregor's father wear after he takes a new job?",
+    "doc_position": "middle-late (~63%)",
+    "answerable": true,
+    "expected_answer": "A smart blue uniform with gold buttons (a bank messenger's uniform)",
+    "key_terms": ["uniform", "gold buttons"],
+    "gold_phrases": ["blue uniform with gold buttons", "gold buttons"]
+  },
+  {
+    "id": "Q16",
+    "question": "How does Gregor manage to open his locked bedroom door the first time?",
+    "doc_position": "early (~21%)",
+    "answerable": true,
+    "expected_answer": "He turns the key using his mouth/jaws (he has no proper hands)",
+    "key_terms": ["mouth", "key", "jaws"],
+    "gold_phrases": ["bit on the key", "the key with his mouth", "with his mouth, and hung onto the key"]
+  },
+  {
+    "id": "Q17",
+    "question": "Near the end, what does Grete insist the family must do about Gregor?",
+    "doc_position": "late (~86%)",
+    "answerable": true,
+    "expected_answer": "Get rid of it / him — she says they must try to get rid of it",
+    "key_terms": ["get rid"],
+    "gold_phrases": ["get rid of it"]
+  },
+  {
+    "id": "Q18",
+    "question": "Who discovers that Gregor has died?",
+    "doc_position": "late (~92%)",
+    "answerable": true,
+    "expected_answer": "The charwoman / cleaner, who finds his body in the morning",
+    "key_terms": ["charwoman", "cleaner", "stone dead"],
+    "gold_phrases": ["stone dead", "the cleaner came in early in the morning"]
+  },
+  {
+    "id": "Q19",
+    "question": "At the very end, what do Mr. and Mrs. Samsa realise about their daughter Grete?",
+    "doc_position": "end (~100%)",
+    "answerable": true,
+    "expected_answer": "She has blossomed into a beautiful young woman and it is time to find her a husband",
+    "key_terms": ["beautiful young lady", "good man", "blossoming"],
+    "gold_phrases": ["beautiful young lady", "find a good man for her"]
+  },
+  {
+    "id": "Q20",
+    "question": "How does Gregor's father drive him back into his room the first time Gregor comes out?",
+    "doc_position": "early-middle (~30%)",
+    "answerable": true,
+    "expected_answer": "By making hissing noises and shooing/driving him with a newspaper and stick",
+    "key_terms": ["hissing", "newspaper", "stick"],
+    "gold_phrases": ["making hissing noises", "unbearable hissing"]
+  }
+]

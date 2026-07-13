@@ -1,0 +1,349 @@
+{
+  "n_answerable": 18,
+  "top_k": 10,
+  "hit_rate_at": {
+    "1": {
+      "fixed": 9,
+      "overlapping": 8,
+      "recursive": 6
+    },
+    "3": {
+      "fixed": 14,
+      "overlapping": 12,
+      "recursive": 13
+    },
+    "5": {
+      "fixed": 15,
+      "overlapping": 13,
+      "recursive": 14
+    }
+  },
+  "rows": [
+    {
+      "id": "Q1",
+      "position": "start (~0%)",
+      "question": "What does Gregor Samsa discover he has transformed into when he wakes up?",
+      "ranks": {
+        "fixed": 1,
+        "overlapping": 1,
+        "recursive": 1
+      }
+    },
+    {
+      "id": "Q2",
+      "position": "start (~0%)",
+      "question": "What is Gregor Samsa's occupation?",
+      "ranks": {
+        "fixed": 1,
+        "overlapping": 1,
+        "recursive": 1
+      }
+    },
+    {
+      "id": "Q3",
+      "position": "early (~19%)",
+      "question": "What is the name of Gregor's sister?",
+      "ranks": {
+        "fixed": 1,
+        "overlapping": 99,
+        "recursive": 3
+      }
+    },
+    {
+      "id": "Q4",
+      "position": "middle (~44%)",
+      "question": "What musical instrument does Gregor's sister play?",
+      "ranks": {
+        "fixed": 1,
+        "overlapping": 1,
+        "recursive": 1
+      }
+    },
+    {
+      "id": "Q5",
+      "position": "middle-late (~65%)",
+      "question": "What does Gregor's father throw at him, injuring him?",
+      "ranks": {
+        "fixed": 1,
+        "overlapping": 1,
+        "recursive": 3
+      }
+    },
+    {
+      "id": "Q6",
+      "position": "late (~68%)",
+      "question": "How many lodgers (gentlemen) does the Samsa family take into their flat?",
+      "ranks": {
+        "fixed": 2,
+        "overlapping": 1,
+        "recursive": 1
+      }
+    },
+    {
+      "id": "Q7",
+      "position": "late (~91%)",
+      "question": "What ultimately happens to Gregor at the end of the story?",
+      "ranks": {
+        "fixed": 99,
+        "overlapping": 99,
+        "recursive": 1
+      }
+    },
+    {
+      "id": "Q8",
+      "position": "end (~98%)",
+      "question": "What do the members of the Samsa family do shortly after Gregor's death?",
+      "ranks": {
+        "fixed": 99,
+        "overlapping": 99,
+        "recursive": 99
+      }
+    },
+    {
+      "id": "Q11",
+      "position": "late (~75%)",
+      "question": "What insulting name does the charwoman call Gregor?",
+      "ranks": {
+        "fixed": 1,
+        "overlapping": 2,
+        "recursive": 2
+      }
+    },
+    {
+      "id": "Q12",
+      "position": "early (~12%)",
+      "question": "Who comes to the Samsas' flat to find out why Gregor has not left for work?",
+      "ranks": {
+        "fixed": 1,
+        "overlapping": 1,
+        "recursive": 2
+      }
+    },
+    {
+      "id": "Q13",
+      "position": "start (~1%)",
+      "question": "What is depicted in the framed picture hanging in Gregor's room?",
+      "ranks": {
+        "fixed": 2,
+        "overlapping": 99,
+        "recursive": 99
+      }
+    },
+    {
+      "id": "Q14",
+      "position": "middle (~38%)",
+      "question": "What kind of food does Gregor find he now prefers to eat in his transformed state?",
+      "ranks": {
+        "fixed": 2,
+        "overlapping": 2,
+        "recursive": 1
+      }
+    },
+    {
+      "id": "Q15",
+      "position": "middle-late (~63%)",
+      "question": "What does Gregor's father wear after he takes a new job?",
+      "ranks": {
+        "fixed": 3,
+        "overlapping": 1,
+        "recursive": 2
+      }
+    },
+    {
+      "id": "Q16",
+      "position": "early (~21%)",
+      "question": "How does Gregor manage to open his locked bedroom door the first time?",
+      "ranks": {
+        "fixed": 4,
+        "overlapping": 3,
+        "recursive": 5
+      }
+    },
+    {
+      "id": "Q17",
+      "position": "late (~86%)",
+      "question": "Near the end, what does Grete insist the family must do about Gregor?",
+      "ranks": {
+        "fixed": 99,
+        "overlapping": 99,
+        "recursive": 99
+      }
+    },
+    {
+      "id": "Q18",
+      "position": "late (~92%)",
+      "question": "Who discovers that Gregor has died?",
+      "ranks": {
+        "fixed": 3,
+        "overlapping": 5,
+        "recursive": 99
+      }
+    },
+    {
+      "id": "Q19",
+      "position": "end (~100%)",
+      "question": "At the very end, what do Mr. and Mrs. Samsa realise about their daughter Grete?",
+      "ranks": {
+        "fixed": 1,
+        "overlapping": 1,
+        "recursive": 3
+      }
+    },
+    {
+      "id": "Q20",
+      "position": "early-middle (~30%)",
+      "question": "How does Gregor's father drive him back into his room the first time Gregor comes out?",
+      "ranks": {
+        "fixed": 1,
+        "overlapping": 2,
+        "recursive": 2
+      }
+    }
+  ],
+  "recursive_vs_fixed": [
+    {
+      "id": "Q1",
+      "position": "start (~0%)",
+      "question": "What does Gregor Samsa discover he has transformed into when he wakes up?",
+      "fixed": 1,
+      "recursive": 1,
+      "delta": 0
+    },
+    {
+      "id": "Q2",
+      "position": "start (~0%)",
+      "question": "What is Gregor Samsa's occupation?",
+      "fixed": 1,
+      "recursive": 1,
+      "delta": 0
+    },
+    {
+      "id": "Q3",
+      "position": "early (~19%)",
+      "question": "What is the name of Gregor's sister?",
+      "fixed": 1,
+      "recursive": 3,
+      "delta": -2
+    },
+    {
+      "id": "Q4",
+      "position": "middle (~44%)",
+      "question": "What musical instrument does Gregor's sister play?",
+      "fixed": 1,
+      "recursive": 1,
+      "delta": 0
+    },
+    {
+      "id": "Q5",
+      "position": "middle-late (~65%)",
+      "question": "What does Gregor's father throw at him, injuring him?",
+      "fixed": 1,
+      "recursive": 3,
+      "delta": -2
+    },
+    {
+      "id": "Q6",
+      "position": "late (~68%)",
+      "question": "How many lodgers (gentlemen) does the Samsa family take into their flat?",
+      "fixed": 2,
+      "recursive": 1,
+      "delta": 1
+    },
+    {
+      "id": "Q7",
+      "position": "late (~91%)",
+      "question": "What ultimately happens to Gregor at the end of the story?",
+      "fixed": 99,
+      "recursive": 1,
+      "delta": 98
+    },
+    {
+      "id": "Q8",
+      "position": "end (~98%)",
+      "question": "What do the members of the Samsa family do shortly after Gregor's death?",
+      "fixed": 99,
+      "recursive": 99,
+      "delta": 0
+    },
+    {
+      "id": "Q11",
+      "position": "late (~75%)",
+      "question": "What insulting name does the charwoman call Gregor?",
+      "fixed": 1,
+      "recursive": 2,
+      "delta": -1
+    },
+    {
+      "id": "Q12",
+      "position": "early (~12%)",
+      "question": "Who comes to the Samsas' flat to find out why Gregor has not left for work?",
+      "fixed": 1,
+      "recursive": 2,
+      "delta": -1
+    },
+    {
+      "id": "Q13",
+      "position": "start (~1%)",
+      "question": "What is depicted in the framed picture hanging in Gregor's room?",
+      "fixed": 2,
+      "recursive": 99,
+      "delta": -97
+    },
+    {
+      "id": "Q14",
+      "position": "middle (~38%)",
+      "question": "What kind of food does Gregor find he now prefers to eat in his transformed state?",
+      "fixed": 2,
+      "recursive": 1,
+      "delta": 1
+    },
+    {
+      "id": "Q15",
+      "position": "middle-late (~63%)",
+      "question": "What does Gregor's father wear after he takes a new job?",
+      "fixed": 3,
+      "recursive": 2,
+      "delta": 1
+    },
+    {
+      "id": "Q16",
+      "position": "early (~21%)",
+      "question": "How does Gregor manage to open his locked bedroom door the first time?",
+      "fixed": 4,
+      "recursive": 5,
+      "delta": -1
+    },
+    {
+      "id": "Q17",
+      "position": "late (~86%)",
+      "question": "Near the end, what does Grete insist the family must do about Gregor?",
+      "fixed": 99,
+      "recursive": 99,
+      "delta": 0
+    },
+    {
+      "id": "Q18",
+      "position": "late (~92%)",
+      "question": "Who discovers that Gregor has died?",
+      "fixed": 3,
+      "recursive": 99,
+      "delta": -96
+    },
+    {
+      "id": "Q19",
+      "position": "end (~100%)",
+      "question": "At the very end, what do Mr. and Mrs. Samsa realise about their daughter Grete?",
+      "fixed": 1,
+      "recursive": 3,
+      "delta": -2
+    },
+    {
+      "id": "Q20",
+      "position": "early-middle (~30%)",
+      "question": "How does Gregor's father drive him back into his room the first time Gregor comes out?",
+      "fixed": 1,
+      "recursive": 2,
+      "delta": -1
+    }
+  ]
+}
