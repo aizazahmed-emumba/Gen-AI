@@ -1,0 +1,34 @@
+{
+  "hit_rate": {
+    "vector": 16,
+    "bm25": 12,
+    "hybrid": 14
+  },
+  "correct": {
+    "none": 13,
+    "cross_encoder": 13,
+    "llm": 15
+  },
+  "cite": {
+    "none": 14,
+    "cross_encoder": 14,
+    "llm": 16
+  },
+  "n": 21,
+  "hybrid_wins": [
+    [
+      "Q9",
+      2,
+      3,
+      1,
+      "Which access control addresses creating, enabling, a"
+    ],
+    [
+      "Q17",
+      null,
+      1,
+      2,
+      "Who is the narrator of Moby-Dick, and what does the "
+    ]
+  ]
+}

@@ -1,0 +1,1531 @@
+{
+  "pool": 15,
+  "k": 5,
+  "results": [
+    {
+      "id": "Q1",
+      "category": "factoid",
+      "question": "What does Gregor Samsa discover he has transformed into?",
+      "retrieval": {
+        "vector": [
+          "kafka-0",
+          "kafka-74",
+          "kafka-49",
+          "kafka-101",
+          "kafka-96"
+        ],
+        "bm25": [
+          "kafka-0",
+          "kafka-145",
+          "kafka-142",
+          "kafka-20",
+          "kafka-149"
+        ],
+        "hybrid": [
+          "kafka-0",
+          "kafka-74",
+          "kafka-145",
+          "kafka-49",
+          "kafka-142"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "kafka-0",
+            "kafka-143",
+            "kafka-74",
+            "kafka-145",
+            "kafka-49"
+          ],
+          "answer": "Gregor discovers that he has been transformed into a horrible vermin. [1]",
+          "cited": [
+            1
+          ]
+        },
+        "cross_encoder": {
+          "top5": [
+            "kafka-0",
+            "kafka-74",
+            "kafka-142",
+            "kafka-143",
+            "kafka-128"
+          ],
+          "answer": "Gregor discovers that he has been transformed into “a horrible vermin.” [1]",
+          "cited": [
+            1
+          ]
+        },
+        "llm": {
+          "top5": [
+            "kafka-0",
+            "kafka-90",
+            "kafka-74",
+            "kafka-139",
+            "kafka-47"
+          ],
+          "answer": "Gregor Samsa discovers that he has been transformed into a horrible vermin. [1]",
+          "cited": [
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "Q2",
+      "category": "factoid",
+      "question": "What is Gregor Samsa's occupation?",
+      "retrieval": {
+        "vector": [
+          "kafka-0",
+          "kafka-64",
+          "kafka-143",
+          "kafka-128",
+          "kafka-65"
+        ],
+        "bm25": [
+          "kafka-142",
+          "kafka-149",
+          "kafka-145",
+          "kafka-144",
+          "kafka-21"
+        ],
+        "hybrid": [
+          "kafka-0",
+          "kafka-142",
+          "kafka-64",
+          "kafka-149",
+          "kafka-143"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "kafka-142",
+            "kafka-0",
+            "kafka-128",
+            "kafka-21",
+            "kafka-143"
+          ],
+          "answer": "NOT IN CONTEXT.",
+          "cited": []
+        },
+        "cross_encoder": {
+          "top5": [
+            "kafka-0",
+            "kafka-142",
+            "kafka-144",
+            "kafka-20",
+            "kafka-128"
+          ],
+          "answer": "NOT IN CONTEXT.",
+          "cited": []
+        },
+        "llm": {
+          "top5": [
+            "kafka-64",
+            "kafka-20",
+            "kafka-109",
+            "kafka-96",
+            "kafka-148"
+          ],
+          "answer": "Gregor Samsa worked as a salesman, being promoted from a junior salesman to a travelling representative. [1]",
+          "cited": [
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "Q3",
+      "category": "factoid",
+      "question": "What musical instrument does Gregor's sister play?",
+      "retrieval": {
+        "vector": [
+          "kafka-126",
+          "kafka-65",
+          "kafka-123",
+          "kafka-129",
+          "kafka-80"
+        ],
+        "bm25": [
+          "kafka-129",
+          "kafka-124",
+          "kafka-51",
+          "kafka-111",
+          "kafka-76"
+        ],
+        "hybrid": [
+          "kafka-129",
+          "kafka-126",
+          "kafka-65",
+          "kafka-124",
+          "kafka-123"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "kafka-129",
+            "kafka-124",
+            "kafka-56",
+            "kafka-126",
+            "kafka-65"
+          ],
+          "answer": "Gregor’s sister plays the violin. [1][4]",
+          "cited": [
+            1,
+            4
+          ]
+        },
+        "cross_encoder": {
+          "top5": [
+            "kafka-129",
+            "kafka-123",
+            "kafka-126",
+            "kafka-65",
+            "kafka-124"
+          ],
+          "answer": "She plays the violin【1】【2】.",
+          "cited": []
+        },
+        "llm": {
+          "top5": [
+            "kafka-129",
+            "kafka-126",
+            "kafka-65",
+            "kafka-123",
+            "kafka-124"
+          ],
+          "answer": "Gregor’s sister plays the violin. [1][3]",
+          "cited": [
+            1,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "id": "Q4",
+      "category": "factoid",
+      "question": "Who is the narrator of Moby-Dick and how does the novel begin?",
+      "retrieval": {
+        "vector": [
+          "melville-255",
+          "melville-200",
+          "melville-308",
+          "melville-266",
+          "melville-202"
+        ],
+        "bm25": [
+          "melville-6",
+          "melville-105",
+          "kafka-123",
+          "melville-114",
+          "melville-88"
+        ],
+        "hybrid": [
+          "melville-255",
+          "melville-6",
+          "melville-200",
+          "melville-105",
+          "melville-308"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "melville-255",
+            "melville-6",
+            "melville-200",
+            "melville-105",
+            "melville-308"
+          ],
+          "answer": "NOT IN CONTEXT.",
+          "cited": []
+        },
+        "cross_encoder": {
+          "top5": [
+            "melville-6",
+            "kafka-123",
+            "melville-266",
+            "melville-105",
+            "melville-302"
+          ],
+          "answer": "NOT IN CONTEXT.",
+          "cited": []
+        },
+        "llm": {
+          "top5": [
+            "melville-199",
+            "melville-200",
+            "melville-227",
+            "melville-266",
+            "melville-255"
+          ],
+          "answer": "NOT IN CONTEXT.",
+          "cited": []
+        }
+      }
+    },
+    {
+      "id": "Q5",
+      "category": "factoid",
+      "question": "What is the name of the inn where Ishmael first stays in New Bedford?",
+      "retrieval": {
+        "vector": [
+          "melville-81",
+          "melville-78",
+          "melville-15",
+          "melville-14",
+          "melville-162"
+        ],
+        "bm25": [
+          "melville-15",
+          "melville-78",
+          "melville-82",
+          "melville-266",
+          "melville-83"
+        ],
+        "hybrid": [
+          "melville-15",
+          "melville-78",
+          "melville-81",
+          "melville-82",
+          "melville-14"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "melville-15",
+            "melville-78",
+            "melville-81",
+            "melville-14",
+            "melville-266"
+          ],
+          "answer": "NOT IN CONTEXT.",
+          "cited": []
+        },
+        "cross_encoder": {
+          "top5": [
+            "melville-266",
+            "melville-17",
+            "melville-78",
+            "melville-15",
+            "melville-81"
+          ],
+          "answer": "Ishmael first stays at the Sword‑Fish Inn in New Bedford. 【2】",
+          "cited": []
+        },
+        "llm": {
+          "top5": [
+            "melville-20",
+            "melville-162",
+            "melville-30",
+            "melville-266",
+            "melville-165"
+          ],
+          "answer": "Ishmael’s first lodging in New Bedford is at the Spouter Inn. 【1】",
+          "cited": []
+        }
+      }
+    },
+    {
+      "id": "Q6",
+      "category": "factoid",
+      "question": "Which harpooneer does Ishmael end up sharing a bed with at the inn?",
+      "retrieval": {
+        "vector": [
+          "melville-30",
+          "melville-37",
+          "melville-199",
+          "melville-168",
+          "melville-141"
+        ],
+        "bm25": [
+          "melville-30",
+          "melville-199",
+          "melville-45",
+          "melville-49",
+          "melville-37"
+        ],
+        "hybrid": [
+          "melville-30",
+          "melville-199",
+          "melville-37",
+          "melville-45",
+          "melville-168"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "melville-30",
+            "melville-199",
+            "melville-37",
+            "melville-48",
+            "melville-46"
+          ],
+          "answer": "NOT IN CONTEXT.",
+          "cited": []
+        },
+        "cross_encoder": {
+          "top5": [
+            "melville-30",
+            "melville-37",
+            "melville-49",
+            "melville-41",
+            "melville-48"
+          ],
+          "answer": "NOT IN CONTEXT.",
+          "cited": []
+        },
+        "llm": {
+          "top5": [
+            "melville-170",
+            "melville-165",
+            "melville-162",
+            "melville-30",
+            "melville-41"
+          ],
+          "answer": "Ishmael ends up sharing a bed with the harpooneer Queequeg. 【2】",
+          "cited": []
+        }
+      }
+    },
+    {
+      "id": "Q7",
+      "category": "factoid",
+      "question": "Which biblical figure is the subject of Father Mapple's sermon in the chapel?",
+      "retrieval": {
+        "vector": [
+          "melville-95",
+          "melville-91",
+          "melville-98",
+          "melville-225",
+          "melville-92"
+        ],
+        "bm25": [
+          "melville-93",
+          "melville-225",
+          "melville-91",
+          "melville-98",
+          "melville-94"
+        ],
+        "hybrid": [
+          "melville-91",
+          "melville-225",
+          "melville-98",
+          "melville-95",
+          "melville-93"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "melville-91",
+            "melville-225",
+            "melville-93",
+            "melville-98",
+            "melville-95"
+          ],
+          "answer": "NOT IN CONTEXT.",
+          "cited": []
+        },
+        "cross_encoder": {
+          "top5": [
+            "melville-91",
+            "melville-98",
+            "melville-225",
+            "melville-95",
+            "melville-93"
+          ],
+          "answer": "NOT IN CONTEXT.",
+          "cited": []
+        },
+        "llm": {
+          "top5": [
+            "melville-100",
+            "melville-116",
+            "melville-98",
+            "melville-91",
+            "melville-225"
+          ],
+          "answer": "Father Mapple’s sermon is about the prophet Jonah, recounting how God prepared a great fish to swallow him【1】.",
+          "cited": []
+        }
+      }
+    },
+    {
+      "id": "Q8",
+      "category": "factoid",
+      "question": "What does the principle of least privilege require organizations to do?",
+      "retrieval": {
+        "vector": [
+          "nist-81",
+          "nist-87",
+          "nist-26",
+          "nist-88",
+          "nist-84"
+        ],
+        "bm25": [
+          "nist-81",
+          "nist-90",
+          "nist-234",
+          "nist-18",
+          "nist-12"
+        ],
+        "hybrid": [
+          "nist-81",
+          "nist-87",
+          "nist-90",
+          "nist-26",
+          "nist-234"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "nist-81",
+            "nist-87",
+            "nist-88",
+            "nist-82",
+            "nist-89"
+          ],
+          "answer": "The principle of least privilege requires organizations to allow only those authorized accesses for users (or their processes) that are necessary to accomplish their assigned organizational tasks, limiting privileges to the minimum needed. [1]",
+          "cited": [
+            1
+          ]
+        },
+        "cross_encoder": {
+          "top5": [
+            "nist-81",
+            "nist-88",
+            "nist-18",
+            "nist-87",
+            "nist-26"
+          ],
+          "answer": "The principle of least privilege requires organizations to allow only those authorized accesses—by users or processes—that are necessary to perform their assigned organizational tasks, ensuring that access and privilege levels are no higher than needed. [1]",
+          "cited": [
+            1
+          ]
+        },
+        "llm": {
+          "top5": [
+            "nist-81",
+            "nist-26",
+            "nist-87",
+            "nist-88",
+            "nist-18"
+          ],
+          "answer": "The principle of least privilege requires organizations to grant users (and the processes acting for them) only the minimum, authorized access needed to perform their assigned tasks or mission‑critical functions. [1][2]",
+          "cited": [
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "id": "Q9",
+      "category": "factoid",
+      "question": "Which access control addresses creating, enabling, and removing user accounts?",
+      "retrieval": {
+        "vector": [
+          "nist-4",
+          "nist-9",
+          "nist-7",
+          "nist-17",
+          "nist-15"
+        ],
+        "bm25": [
+          "nist-84",
+          "nist-108",
+          "nist-16",
+          "nist-13",
+          "nist-15"
+        ],
+        "hybrid": [
+          "nist-15",
+          "nist-4",
+          "nist-84",
+          "nist-9",
+          "nist-108"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "nist-16",
+            "nist-15",
+            "nist-84",
+            "nist-85",
+            "nist-12"
+          ],
+          "answer": "The access control that covers creating, enabling, and removing user accounts is **Account Management** (specifically the automated audit actions for account creation, modification, enabling, disabling, and removal)【5】.",
+          "cited": []
+        },
+        "cross_encoder": {
+          "top5": [
+            "nist-4",
+            "nist-7",
+            "nist-12",
+            "nist-84",
+            "nist-16"
+          ],
+          "answer": "The “Account Management” (AC‑2) access‑control control covers creating, enabling, modifying and removing user accounts. [1][3]",
+          "cited": [
+            1,
+            3
+          ]
+        },
+        "llm": {
+          "top5": [
+            "nist-7",
+            "nist-17",
+            "nist-15",
+            "nist-12",
+            "nist-4"
+          ],
+          "answer": "The “Account Management” (AC‑2) control addresses creating, enabling and removing user accounts【1†L1-L4】【4†L1-L4】.",
+          "cited": []
+        }
+      }
+    },
+    {
+      "id": "Q10",
+      "category": "factoid",
+      "question": "What does the access enforcement control require a system to do?",
+      "retrieval": {
+        "vector": [
+          "nist-21",
+          "nist-40",
+          "nist-169",
+          "nist-44",
+          "nist-25"
+        ],
+        "bm25": [
+          "nist-30",
+          "nist-40",
+          "nist-25",
+          "nist-32",
+          "nist-359"
+        ],
+        "hybrid": [
+          "nist-40",
+          "nist-25",
+          "nist-21",
+          "nist-30",
+          "nist-169"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "nist-40",
+            "nist-25",
+            "nist-169",
+            "nist-32",
+            "nist-21"
+          ],
+          "answer": "The access‑enforcement control requires the system to enforce approved authorizations for logical access to information and system resources in line with the organization’s access‑control policies, ensuring that access‑control decisions are applied to each request before access is granted【5】【3】.",
+          "cited": []
+        },
+        "cross_encoder": {
+          "top5": [
+            "nist-40",
+            "nist-21",
+            "nist-169",
+            "nist-41",
+            "nist-32"
+          ],
+          "answer": "The access‑enforcement control requires the system to enforce approved authorizations for logical access to information and system resources in accordance with the organization’s access‑control policies【2】.",
+          "cited": []
+        },
+        "llm": {
+          "top5": [
+            "nist-21",
+            "nist-169",
+            "nist-24",
+            "nist-40",
+            "nist-44"
+          ],
+          "answer": "The access‑enforcement control requires the system to enforce approved authorizations for logical access to information and system resources in accordance with the organization’s applicable access‑control policies. [1]",
+          "cited": [
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "Q11",
+      "category": "factoid",
+      "question": "What is the purpose of separation of duties as a security control?",
+      "retrieval": {
+        "vector": [
+          "nist-79",
+          "nist-70",
+          "nist-370",
+          "nist-139",
+          "nist-63"
+        ],
+        "bm25": [
+          "nist-79",
+          "nist-399",
+          "nist-309",
+          "nist-31",
+          "nist-190"
+        ],
+        "hybrid": [
+          "nist-79",
+          "nist-70",
+          "nist-399",
+          "nist-370",
+          "nist-309"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "nist-79",
+            "nist-190",
+            "nist-356",
+            "nist-70",
+            "nist-399"
+          ],
+          "answer": "Separation of duties is intended to curb the potential abuse of authorized privileges and lower the risk of malicious activity that could occur without collusion by dividing mission, business, and support functions among different people or roles【1】.",
+          "cited": []
+        },
+        "cross_encoder": {
+          "top5": [
+            "nist-79",
+            "nist-399",
+            "nist-309",
+            "nist-31",
+            "nist-356"
+          ],
+          "answer": "Separation of duties is intended to curb the potential abuse of privileged authority by splitting mission, business, and support functions among different people, thereby lowering the risk of malicious activity that could occur without collusion. [1]",
+          "cited": [
+            1
+          ]
+        },
+        "llm": {
+          "top5": [
+            "nist-79",
+            "nist-399",
+            "nist-309",
+            "nist-310",
+            "nist-82"
+          ],
+          "answer": "Separation of duties is intended to curb the potential for abuse of privileged authority by ensuring that no single person can perform all critical tasks, thereby reducing the risk of malicious or unauthorized activity without collusion. [1]",
+          "cited": [
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "Q12",
+      "category": "factoid",
+      "question": "What must organizations establish and authorize for remote access connections?",
+      "retrieval": {
+        "vector": [
+          "nist-132",
+          "nist-137",
+          "nist-133",
+          "nist-139",
+          "nist-136"
+        ],
+        "bm25": [
+          "nist-132",
+          "nist-136",
+          "nist-133",
+          "nist-137",
+          "nist-365"
+        ],
+        "hybrid": [
+          "nist-132",
+          "nist-137",
+          "nist-133",
+          "nist-136",
+          "nist-139"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "nist-132",
+            "nist-137",
+            "nist-133",
+            "nist-136",
+            "nist-134"
+          ],
+          "answer": "Organizations must establish and document usage restrictions, configuration/connection requirements, and implementation guidance for each type of remote access they allow, and they must authorize each type of remote access to the system before permitting those connections. [1]",
+          "cited": [
+            1
+          ]
+        },
+        "cross_encoder": {
+          "top5": [
+            "nist-132",
+            "nist-136",
+            "nist-137",
+            "nist-133",
+            "nist-331"
+          ],
+          "answer": "Organizations must establish and document usage restrictions, configuration/connection requirements, and implementation guidance for each type of remote access they allow, and they must authorize each type of remote access to the system before permitting those connections. [1]",
+          "cited": [
+            1
+          ]
+        },
+        "llm": {
+          "top5": [
+            "nist-132",
+            "nist-133",
+            "nist-141",
+            "nist-136",
+            "nist-134"
+          ],
+          "answer": "Organizations must establish and document usage restrictions, configuration/connection requirements, and implementation guidance for each type of remote access they allow, and they must authorize each type of remote access to the system before permitting those connections. [1]",
+          "cited": [
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "Q13",
+      "category": "factoid",
+      "question": "What control prevents access to a device by initiating a lock after inactivity?",
+      "retrieval": {
+        "vector": [
+          "nist-105",
+          "nist-106",
+          "nist-94",
+          "nist-13",
+          "nist-139"
+        ],
+        "bm25": [
+          "nist-105",
+          "nist-13",
+          "nist-94",
+          "nist-106",
+          "nist-25"
+        ],
+        "hybrid": [
+          "nist-105",
+          "nist-106",
+          "nist-13",
+          "nist-94",
+          "nist-139"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "nist-105",
+            "nist-106",
+            "nist-13",
+            "nist-94",
+            "nist-358"
+          ],
+          "answer": "The control is the device‑lock control that “prevents further access to the system by initiating a device lock after [organization‑defined time period] of inactivity”【1】.",
+          "cited": []
+        },
+        "cross_encoder": {
+          "top5": [
+            "nist-105",
+            "nist-109",
+            "nist-13",
+            "nist-92",
+            "nist-94"
+          ],
+          "answer": "The control that prevents access by initiating a device lock after a period of inactivity is the “device‑lock after inactivity” control, which initiates a lock after the organization‑defined idle time and retains it until the user re‑authenticates【1】.",
+          "cited": []
+        },
+        "llm": {
+          "top5": [
+            "nist-105",
+            "nist-106",
+            "nist-13",
+            "nist-109",
+            "nist-92"
+          ],
+          "answer": "The control is the device‑lock control that “prevents further access to the system by initiating a device lock after [organization‑defined time period] of inactivity”【1】.",
+          "cited": []
+        }
+      }
+    },
+    {
+      "id": "Q14",
+      "category": "factoid",
+      "question": "What must be authorized before allowing wireless networking connections?",
+      "retrieval": {
+        "vector": [
+          "nist-141",
+          "nist-143",
+          "nist-142",
+          "nist-132",
+          "nist-147"
+        ],
+        "bm25": [
+          "nist-141",
+          "nist-142",
+          "nist-143",
+          "nist-132",
+          "nist-133"
+        ],
+        "hybrid": [
+          "nist-141",
+          "nist-143",
+          "nist-142",
+          "nist-132",
+          "nist-147"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "nist-141",
+            "nist-143",
+            "nist-142",
+            "nist-132",
+            "nist-133"
+          ],
+          "answer": "Each type of wireless access must be authorized to the system before any wireless networking connections are allowed. [1]",
+          "cited": [
+            1
+          ]
+        },
+        "cross_encoder": {
+          "top5": [
+            "nist-141",
+            "nist-143",
+            "nist-132",
+            "nist-147",
+            "nist-142"
+          ],
+          "answer": "Each type of wireless access must be authorized before allowing wireless networking connections. [1]",
+          "cited": [
+            1
+          ]
+        },
+        "llm": {
+          "top5": [
+            "nist-141",
+            "nist-132",
+            "nist-142",
+            "nist-143",
+            "nist-133"
+          ],
+          "answer": "Each type of wireless access must be authorized before allowing wireless networking connections. [1]",
+          "cited": [
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "Q15",
+      "category": "cross-domain",
+      "question": "According to the security standard, what should limit each user to only the minimum access required to do their job?",
+      "retrieval": {
+        "vector": [
+          "nist-86",
+          "nist-26",
+          "nist-7",
+          "nist-44",
+          "nist-82"
+        ],
+        "bm25": [
+          "nist-71",
+          "nist-32",
+          "nist-14",
+          "nist-248",
+          "nist-171"
+        ],
+        "hybrid": [
+          "nist-86",
+          "nist-71",
+          "nist-26",
+          "nist-32",
+          "nist-7"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "nist-71",
+            "nist-26",
+            "nist-84",
+            "nist-86",
+            "nist-32"
+          ],
+          "answer": "The security standard requires applying the principle of least privilege, which limits each user to only the minimum privileges needed to perform their job. [2]",
+          "cited": [
+            2
+          ]
+        },
+        "cross_encoder": {
+          "top5": [
+            "nist-26",
+            "nist-84",
+            "nist-7",
+            "nist-30",
+            "nist-71"
+          ],
+          "answer": "The concept of least privilege should limit each user to only the minimum access required to do their job【1】.",
+          "cited": []
+        },
+        "llm": {
+          "top5": [
+            "nist-26",
+            "nist-82",
+            "nist-84",
+            "nist-86",
+            "nist-32"
+          ],
+          "answer": "The principle of least privilege should limit each user to only the minimum access required to do their job【1】.",
+          "cited": []
+        }
+      }
+    },
+    {
+      "id": "Q16",
+      "category": "compound",
+      "question": "What did Gregor Samsa transform into, and what instrument does his sister play?",
+      "retrieval": {
+        "vector": [
+          "kafka-126",
+          "kafka-65",
+          "kafka-74",
+          "kafka-0",
+          "kafka-90"
+        ],
+        "bm25": [
+          "kafka-129",
+          "kafka-142",
+          "kafka-51",
+          "kafka-111",
+          "kafka-59"
+        ],
+        "hybrid": [
+          "kafka-126",
+          "kafka-129",
+          "kafka-65",
+          "kafka-142",
+          "kafka-74"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "kafka-129",
+            "kafka-0",
+            "kafka-65",
+            "kafka-124",
+            "kafka-56"
+          ],
+          "answer": "Gregor Samsa woke up having been transformed into a horrible vermin, and his sister is a violinist who plays the violin. [2][1]",
+          "cited": [
+            1,
+            2
+          ]
+        },
+        "cross_encoder": {
+          "top5": [
+            "kafka-129",
+            "kafka-0",
+            "kafka-124",
+            "kafka-126",
+            "kafka-65"
+          ],
+          "answer": "Gregor Samsa woke up having been transformed into “a horrible vermin” [2], and his sister is a gifted violinist who plays the violin [1][5].",
+          "cited": [
+            1,
+            2,
+            5
+          ]
+        },
+        "llm": {
+          "top5": [
+            "kafka-0",
+            "kafka-129",
+            "kafka-65",
+            "kafka-124",
+            "kafka-126"
+          ],
+          "answer": "Gregor Samsa woke up transformed into “a horrible vermin” [1], and his sister is a gifted violinist who plays the violin [2].",
+          "cited": [
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "id": "Q17",
+      "category": "compound",
+      "question": "Who is the narrator of Moby-Dick, and what does the NIST principle of least privilege require?",
+      "retrieval": {
+        "vector": [
+          "melville-308",
+          "melville-303",
+          "melville-107",
+          "melville-106",
+          "melville-200"
+        ],
+        "bm25": [
+          "nist-81",
+          "nist-90",
+          "nist-234",
+          "nist-82",
+          "nist-87"
+        ],
+        "hybrid": [
+          "melville-308",
+          "nist-81",
+          "melville-303",
+          "nist-90",
+          "melville-107"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "melville-308",
+            "nist-81",
+            "melville-303",
+            "nist-90",
+            "melville-107"
+          ],
+          "answer": "NOT IN CONTEXT.",
+          "cited": []
+        },
+        "cross_encoder": {
+          "top5": [
+            "nist-81",
+            "nist-90",
+            "nist-82",
+            "nist-87",
+            "nist-234"
+          ],
+          "answer": "NOT IN CONTEXT",
+          "cited": []
+        },
+        "llm": {
+          "top5": [
+            "nist-81",
+            "melville-200",
+            "nist-90",
+            "nist-82",
+            "nist-87"
+          ],
+          "answer": "NOT IN CONTEXT",
+          "cited": []
+        }
+      }
+    },
+    {
+      "id": "Q18",
+      "category": "compound",
+      "question": "Which control covers account management, and what does separation of duties address?",
+      "retrieval": {
+        "vector": [
+          "nist-79",
+          "nist-4",
+          "nist-17",
+          "nist-10",
+          "nist-85"
+        ],
+        "bm25": [
+          "nist-79",
+          "nist-399",
+          "nist-104",
+          "nist-9",
+          "nist-12"
+        ],
+        "hybrid": [
+          "nist-79",
+          "nist-4",
+          "nist-399",
+          "nist-17",
+          "nist-104"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "nist-79",
+            "nist-10",
+            "nist-9",
+            "nist-17",
+            "nist-12"
+          ],
+          "answer": "The control that covers account management is the **ACCOUNT MANAGEMENT** control (e.g., “ACCOUNT MANAGEMENT | AUTOMATED TEMPORARY AND EMERGENCY ACCOUNT MANAGEMENT”)【2】.  \nSeparation of duties addresses the potential for abuse of authorized privileges and helps reduce the risk of malevolent activity without collusion【1】.",
+          "cited": []
+        },
+        "cross_encoder": {
+          "top5": [
+            "nist-79",
+            "nist-399",
+            "nist-10",
+            "nist-85",
+            "nist-4"
+          ],
+          "answer": "The control that covers account management is the Account Management control (AC‑2) [3]. Separation of duties addresses the potential for abuse of authorized privileges and helps reduce the risk of malicious activity without collusion [1].",
+          "cited": [
+            1,
+            3
+          ]
+        },
+        "llm": {
+          "top5": [
+            "nist-10",
+            "nist-79",
+            "nist-399",
+            "nist-4",
+            "nist-17"
+          ],
+          "answer": "The ACCOUNT MANAGEMENT control governs account management [1], and separation of duties addresses the potential for abuse of authorized privileges and helps reduce the risk of malevolent activity without collusion [2].",
+          "cited": [
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "id": "Q19",
+      "category": "trap",
+      "question": "What is the capital of France?",
+      "retrieval": {
+        "vector": [
+          "melville-21",
+          "nist-271",
+          "melville-140",
+          "kafka-44",
+          "kafka-115"
+        ],
+        "bm25": [
+          "melville-279",
+          "melville-271",
+          "melville-129",
+          "melville-41",
+          "melville-234"
+        ],
+        "hybrid": [
+          "melville-21",
+          "melville-279",
+          "nist-271",
+          "melville-271",
+          "melville-140"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "melville-21",
+            "melville-279",
+            "nist-271",
+            "melville-271",
+            "melville-140"
+          ],
+          "answer": "NOT IN CONTEXT.",
+          "cited": []
+        },
+        "cross_encoder": {
+          "top5": [
+            "melville-279",
+            "nist-271",
+            "kafka-44",
+            "kafka-115",
+            "melville-21"
+          ],
+          "answer": "NOT IN CONTEXT.",
+          "cited": []
+        },
+        "llm": {
+          "top5": [
+            "melville-279",
+            "melville-21",
+            "nist-271",
+            "melville-271",
+            "melville-140"
+          ],
+          "answer": "NOT IN CONTEXT.",
+          "cited": []
+        }
+      }
+    },
+    {
+      "id": "Q20",
+      "category": "trap",
+      "question": "How do you configure a Kubernetes ingress controller?",
+      "retrieval": {
+        "vector": [
+          "nist-145",
+          "nist-143",
+          "nist-367",
+          "nist-147",
+          "nist-342"
+        ],
+        "bm25": [
+          "melville-114",
+          "melville-180",
+          "nist-143",
+          "nist-61",
+          "melville-129"
+        ],
+        "hybrid": [
+          "nist-143",
+          "nist-145",
+          "melville-114",
+          "melville-180",
+          "nist-367"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "nist-143",
+            "nist-342",
+            "nist-370",
+            "nist-145",
+            "melville-114"
+          ],
+          "answer": "NOT IN CONTEXT.",
+          "cited": []
+        },
+        "cross_encoder": {
+          "top5": [
+            "nist-370",
+            "nist-61",
+            "nist-143",
+            "nist-367",
+            "nist-342"
+          ],
+          "answer": "NOT IN CONTEXT.",
+          "cited": []
+        },
+        "llm": {
+          "top5": [
+            "nist-367",
+            "nist-364",
+            "nist-342",
+            "nist-390",
+            "nist-143"
+          ],
+          "answer": "NOT IN CONTEXT.",
+          "cited": []
+        }
+      }
+    },
+    {
+      "id": "Q21",
+      "category": "lexical",
+      "question": "What are the requirements of control AC-11?",
+      "retrieval": {
+        "vector": [
+          "nist-316",
+          "nist-80",
+          "nist-368",
+          "nist-22",
+          "nist-281"
+        ],
+        "bm25": [
+          "nist-13",
+          "nist-149",
+          "nist-316",
+          "nist-22",
+          "nist-80"
+        ],
+        "hybrid": [
+          "nist-316",
+          "nist-80",
+          "nist-22",
+          "nist-13",
+          "nist-149"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "nist-316",
+            "nist-80",
+            "nist-22",
+            "nist-149",
+            "nist-141"
+          ],
+          "answer": "NOT IN CONTEXT.",
+          "cited": []
+        },
+        "cross_encoder": {
+          "top5": [
+            "nist-149",
+            "nist-13",
+            "nist-316",
+            "nist-141",
+            "nist-106"
+          ],
+          "answer": "Control AC‑11 requires that the system automatically enforce an inactivity logout, terminating user sessions after a defined period of inactivity without requiring the user to manually log out. [2]",
+          "cited": [
+            2
+          ]
+        },
+        "llm": {
+          "top5": [
+            "nist-13",
+            "nist-149",
+            "nist-22",
+            "nist-316",
+            "nist-80"
+          ],
+          "answer": "Control AC‑11 requires that the system automatically enforce an inactivity logout, terminating user sessions after a defined period of inactivity rather than relying on users to log out manually [1].",
+          "cited": [
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "Q22",
+      "category": "lexical",
+      "question": "What is a harpooneer?",
+      "retrieval": {
+        "vector": [
+          "melville-297",
+          "melville-48",
+          "melville-145",
+          "melville-141",
+          "melville-299"
+        ],
+        "bm25": [
+          "melville-43",
+          "melville-41",
+          "melville-37",
+          "melville-52",
+          "melville-32"
+        ],
+        "hybrid": [
+          "melville-297",
+          "melville-43",
+          "melville-48",
+          "melville-41",
+          "melville-145"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "melville-43",
+            "melville-41",
+            "melville-48",
+            "melville-297",
+            "melville-37"
+          ],
+          "answer": "A harpooneer is a whaling crew member who handles the harpoon—essentially a boat‑steerer who supplies a fresh lance for the headsman and “flings javelins” in the hunt for whales. [4]",
+          "cited": [
+            4
+          ]
+        },
+        "cross_encoder": {
+          "top5": [
+            "melville-43",
+            "melville-48",
+            "melville-229",
+            "melville-297",
+            "melville-32"
+          ],
+          "answer": "A harpooneer is a whaling crew member who handles the harpoon—essentially a “flinger of javelins” who works with the boat‑steerer to spear whales. [4]",
+          "cited": [
+            4
+          ]
+        },
+        "llm": {
+          "top5": [
+            "melville-297",
+            "melville-299",
+            "melville-141",
+            "melville-145",
+            "melville-37"
+          ],
+          "answer": "A harpooneer is a crew member on a whaling ship who steers the boat and handles the harpoon, supplying the lance for the headsman and flinging it like a javelin during the hunt. [1]",
+          "cited": [
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "Q23",
+      "category": "lexical",
+      "question": "What is the objective of the AC-6 control?",
+      "retrieval": {
+        "vector": [
+          "nist-80",
+          "nist-316",
+          "nist-22",
+          "nist-309",
+          "nist-281"
+        ],
+        "bm25": [
+          "nist-316",
+          "nist-22",
+          "nist-211",
+          "nist-26",
+          "nist-111"
+        ],
+        "hybrid": [
+          "nist-316",
+          "nist-22",
+          "nist-80",
+          "nist-211",
+          "nist-309"
+        ]
+      },
+      "rerank": {
+        "none": {
+          "top5": [
+            "nist-316",
+            "nist-22",
+            "nist-80",
+            "nist-26",
+            "nist-50"
+          ],
+          "answer": "The AC‑6 control aims to enforce the principle of least privilege by ensuring that trusted subjects receive only the minimum privileges needed to fulfill the organization’s mission or business requirements. [4]",
+          "cited": [
+            4
+          ]
+        },
+        "cross_encoder": {
+          "top5": [
+            "nist-26",
+            "nist-309",
+            "nist-50",
+            "nist-227",
+            "nist-13"
+          ],
+          "answer": "The AC‑6 control aims to enforce the principle of least privilege by granting trusted subjects only the minimum privileges needed to fulfill the organization’s mission or business requirements. [1]",
+          "cited": [
+            1
+          ]
+        },
+        "llm": {
+          "top5": [
+            "nist-26",
+            "nist-22",
+            "nist-316",
+            "nist-50",
+            "nist-227"
+          ],
+          "answer": "The AC‑6 control’s objective is to enforce the principle of least privilege by ensuring that trusted subjects receive only the minimum privileges needed to fulfill the organization’s mission or business requirements. [1]",
+          "cited": [
+            1
+          ]
+        }
+      }
+    }
+  ]
+}
