@@ -1,0 +1,154 @@
+[
+  {
+    "id": "Q1", "category": "factoid", "answerable": true,
+    "question": "What does Gregor Samsa discover he has transformed into?",
+    "expected_source": "kafka", "expected_doc_type": "fiction",
+    "expected_answer": "a horrible vermin / giant insect",
+    "gold_phrases": ["horrible vermin", "transformed in his bed"]
+  },
+  {
+    "id": "Q2", "category": "factoid", "answerable": true,
+    "question": "What is Gregor Samsa's occupation?",
+    "expected_source": "kafka", "expected_doc_type": "fiction",
+    "expected_answer": "a travelling salesman",
+    "gold_phrases": ["travelling salesman"]
+  },
+  {
+    "id": "Q3", "category": "factoid", "answerable": true,
+    "question": "What musical instrument does Gregor's sister play?",
+    "expected_source": "kafka", "expected_doc_type": "fiction",
+    "expected_answer": "the violin",
+    "gold_phrases": ["violin"]
+  },
+  {
+    "id": "Q4", "category": "factoid", "answerable": true,
+    "question": "Who is the narrator of Moby-Dick and how does the novel begin?",
+    "expected_source": "melville", "expected_doc_type": "fiction",
+    "expected_answer": "Ishmael; 'Call me Ishmael'",
+    "gold_phrases": ["Call me Ishmael"]
+  },
+  {
+    "id": "Q5", "category": "factoid", "answerable": true,
+    "question": "What is the name of the inn where Ishmael first stays in New Bedford?",
+    "expected_source": "melville", "expected_doc_type": "fiction",
+    "expected_answer": "the Spouter-Inn",
+    "gold_phrases": ["Spouter-Inn"]
+  },
+  {
+    "id": "Q6", "category": "factoid", "answerable": true,
+    "question": "Which harpooneer does Ishmael end up sharing a bed with at the inn?",
+    "expected_source": "melville", "expected_doc_type": "fiction",
+    "expected_answer": "Queequeg",
+    "gold_phrases": ["Queequeg"]
+  },
+  {
+    "id": "Q7", "category": "factoid", "answerable": true,
+    "question": "Which biblical figure is the subject of Father Mapple's sermon in the chapel?",
+    "expected_source": "melville", "expected_doc_type": "fiction",
+    "expected_answer": "Jonah",
+    "gold_phrases": ["Jonah"]
+  },
+  {
+    "id": "Q8", "category": "factoid", "answerable": true,
+    "question": "What does the principle of least privilege require organizations to do?",
+    "expected_source": "nist", "expected_doc_type": "standard",
+    "expected_answer": "grant users only the access needed to accomplish their tasks",
+    "gold_phrases": ["least privilege"]
+  },
+  {
+    "id": "Q9", "category": "factoid", "answerable": true,
+    "question": "Which access control addresses creating, enabling, and removing user accounts?",
+    "expected_source": "nist", "expected_doc_type": "standard",
+    "expected_answer": "AC-2 Account Management",
+    "gold_phrases": ["ACCOUNT MANAGEMENT", "Account Management"]
+  },
+  {
+    "id": "Q10", "category": "factoid", "answerable": true,
+    "question": "What does the access enforcement control require a system to do?",
+    "expected_source": "nist", "expected_doc_type": "standard",
+    "expected_answer": "enforce approved authorizations for logical access (AC-3)",
+    "gold_phrases": ["ACCESS ENFORCEMENT", "Access Enforcement"]
+  },
+  {
+    "id": "Q11", "category": "factoid", "answerable": true,
+    "question": "What is the purpose of separation of duties as a security control?",
+    "expected_source": "nist", "expected_doc_type": "standard",
+    "expected_answer": "reduce risk of malevolent activity without collusion (AC-5)",
+    "gold_phrases": ["SEPARATION OF DUTIES", "Separation Of Duties", "separation of duties"]
+  },
+  {
+    "id": "Q12", "category": "factoid", "answerable": true,
+    "question": "What must organizations establish and authorize for remote access connections?",
+    "expected_source": "nist", "expected_doc_type": "standard",
+    "expected_answer": "usage restrictions and authorization for each type of remote access (AC-17)",
+    "gold_phrases": ["REMOTE ACCESS", "remote access"]
+  },
+  {
+    "id": "Q13", "category": "factoid", "answerable": true,
+    "question": "What control prevents access to a device by initiating a lock after inactivity?",
+    "expected_source": "nist", "expected_doc_type": "standard",
+    "expected_answer": "AC-11 Device Lock",
+    "gold_phrases": ["DEVICE LOCK", "Device Lock", "device lock"]
+  },
+  {
+    "id": "Q14", "category": "factoid", "answerable": true,
+    "question": "What must be authorized before allowing wireless networking connections?",
+    "expected_source": "nist", "expected_doc_type": "standard",
+    "expected_answer": "wireless access usage must be authorized (AC-18)",
+    "gold_phrases": ["WIRELESS ACCESS", "wireless access"]
+  },
+  {
+    "id": "Q15", "category": "cross-domain", "answerable": true,
+    "question": "According to the security standard, what should limit each user to only the minimum access required to do their job?",
+    "expected_source": "nist", "expected_doc_type": "standard",
+    "expected_answer": "least privilege (AC-6)",
+    "gold_phrases": ["least privilege"]
+  },
+  {
+    "id": "Q16", "category": "compound", "answerable": true,
+    "question": "What did Gregor Samsa transform into, and what instrument does his sister play?",
+    "expected_source": "kafka", "expected_doc_type": "fiction",
+    "expected_answer": "a vermin/insect; the violin",
+    "gold_phrases": ["horrible vermin", "violin"],
+    "sub_questions": [
+      {"question": "What did Gregor Samsa transform into?", "gold_phrases": ["horrible vermin"], "expected_source": "kafka"},
+      {"question": "What instrument does Gregor's sister play?", "gold_phrases": ["violin"], "expected_source": "kafka"}
+    ]
+  },
+  {
+    "id": "Q17", "category": "compound", "answerable": true,
+    "question": "Who is the narrator of Moby-Dick, and what does the NIST principle of least privilege require?",
+    "expected_source": ["melville", "nist"], "expected_doc_type": null,
+    "expected_answer": "Ishmael; grant only the minimum access needed",
+    "gold_phrases": ["Call me Ishmael", "least privilege"],
+    "sub_questions": [
+      {"question": "Who is the narrator of Moby-Dick?", "gold_phrases": ["Call me Ishmael"], "expected_source": "melville"},
+      {"question": "What does the principle of least privilege require?", "gold_phrases": ["least privilege"], "expected_source": "nist"}
+    ]
+  },
+  {
+    "id": "Q18", "category": "compound", "answerable": true,
+    "question": "Which control covers account management, and what does separation of duties address?",
+    "expected_source": "nist", "expected_doc_type": "standard",
+    "expected_answer": "AC-2 Account Management; AC-5 Separation of Duties",
+    "gold_phrases": ["ACCOUNT MANAGEMENT", "SEPARATION OF DUTIES"],
+    "sub_questions": [
+      {"question": "Which control addresses account management?", "gold_phrases": ["ACCOUNT MANAGEMENT", "Account Management"], "expected_source": "nist"},
+      {"question": "What does separation of duties address?", "gold_phrases": ["SEPARATION OF DUTIES", "separation of duties"], "expected_source": "nist"}
+    ]
+  },
+  {
+    "id": "Q19", "category": "trap", "answerable": false,
+    "question": "What is the capital of France?",
+    "expected_source": null, "expected_doc_type": null,
+    "expected_answer": "(not in corpus)",
+    "gold_phrases": []
+  },
+  {
+    "id": "Q20", "category": "trap", "answerable": false,
+    "question": "How do you configure a Kubernetes ingress controller?",
+    "expected_source": null, "expected_doc_type": null,
+    "expected_answer": "(not in corpus)",
+    "gold_phrases": []
+  }
+]

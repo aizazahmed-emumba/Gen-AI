@@ -1,0 +1,572 @@
+{
+  "totals": {
+    "baseline": 15,
+    "multiquery": 14,
+    "hyde": 15,
+    "filtered": 15,
+    "optimized": 15
+  },
+  "n_answerable": 18,
+  "scored": [
+    {
+      "id": "Q1",
+      "category": "factoid",
+      "question": "What does Gregor Samsa discover he has transformed into?",
+      "trap": false,
+      "judged": {
+        "baseline": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "multiquery": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "hyde": {
+          "hit": true,
+          "detail": "rank 2"
+        },
+        "filtered": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "optimized": {
+          "hit": true,
+          "detail": "rank 2"
+        }
+      }
+    },
+    {
+      "id": "Q2",
+      "category": "factoid",
+      "question": "What is Gregor Samsa's occupation?",
+      "trap": false,
+      "judged": {
+        "baseline": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "multiquery": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "hyde": {
+          "hit": true,
+          "detail": "rank 2"
+        },
+        "filtered": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "optimized": {
+          "hit": true,
+          "detail": "rank 1"
+        }
+      }
+    },
+    {
+      "id": "Q3",
+      "category": "factoid",
+      "question": "What musical instrument does Gregor's sister play?",
+      "trap": false,
+      "judged": {
+        "baseline": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "multiquery": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "hyde": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "filtered": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "optimized": {
+          "hit": true,
+          "detail": "rank 2"
+        }
+      }
+    },
+    {
+      "id": "Q4",
+      "category": "factoid",
+      "question": "Who is the narrator of Moby-Dick and how does the novel begin?",
+      "trap": false,
+      "judged": {
+        "baseline": {
+          "hit": false,
+          "detail": "miss"
+        },
+        "multiquery": {
+          "hit": false,
+          "detail": "miss"
+        },
+        "hyde": {
+          "hit": false,
+          "detail": "miss"
+        },
+        "filtered": {
+          "hit": false,
+          "detail": "miss"
+        },
+        "optimized": {
+          "hit": false,
+          "detail": "miss"
+        }
+      }
+    },
+    {
+      "id": "Q5",
+      "category": "factoid",
+      "question": "What is the name of the inn where Ishmael first stays in New Bedford?",
+      "trap": false,
+      "judged": {
+        "baseline": {
+          "hit": true,
+          "detail": "rank 5"
+        },
+        "multiquery": {
+          "hit": true,
+          "detail": "rank 4"
+        },
+        "hyde": {
+          "hit": true,
+          "detail": "rank 3"
+        },
+        "filtered": {
+          "hit": true,
+          "detail": "rank 5"
+        },
+        "optimized": {
+          "hit": true,
+          "detail": "rank 3"
+        }
+      }
+    },
+    {
+      "id": "Q6",
+      "category": "factoid",
+      "question": "Which harpooneer does Ishmael end up sharing a bed with at the inn?",
+      "trap": false,
+      "judged": {
+        "baseline": {
+          "hit": true,
+          "detail": "rank 4"
+        },
+        "multiquery": {
+          "hit": true,
+          "detail": "rank 4"
+        },
+        "hyde": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "filtered": {
+          "hit": true,
+          "detail": "rank 4"
+        },
+        "optimized": {
+          "hit": true,
+          "detail": "rank 3"
+        }
+      }
+    },
+    {
+      "id": "Q7",
+      "category": "factoid",
+      "question": "Which biblical figure is the subject of Father Mapple's sermon in the chapel?",
+      "trap": false,
+      "judged": {
+        "baseline": {
+          "hit": false,
+          "detail": "miss"
+        },
+        "multiquery": {
+          "hit": false,
+          "detail": "miss"
+        },
+        "hyde": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "filtered": {
+          "hit": false,
+          "detail": "miss"
+        },
+        "optimized": {
+          "hit": false,
+          "detail": "miss"
+        }
+      }
+    },
+    {
+      "id": "Q8",
+      "category": "factoid",
+      "question": "What does the principle of least privilege require organizations to do?",
+      "trap": false,
+      "judged": {
+        "baseline": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "multiquery": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "hyde": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "filtered": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "optimized": {
+          "hit": true,
+          "detail": "rank 1"
+        }
+      }
+    },
+    {
+      "id": "Q9",
+      "category": "factoid",
+      "question": "Which access control addresses creating, enabling, and removing user accounts?",
+      "trap": false,
+      "judged": {
+        "baseline": {
+          "hit": true,
+          "detail": "rank 2"
+        },
+        "multiquery": {
+          "hit": true,
+          "detail": "rank 2"
+        },
+        "hyde": {
+          "hit": true,
+          "detail": "rank 2"
+        },
+        "filtered": {
+          "hit": true,
+          "detail": "rank 2"
+        },
+        "optimized": {
+          "hit": true,
+          "detail": "rank 3"
+        }
+      }
+    },
+    {
+      "id": "Q10",
+      "category": "factoid",
+      "question": "What does the access enforcement control require a system to do?",
+      "trap": false,
+      "judged": {
+        "baseline": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "multiquery": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "hyde": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "filtered": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "optimized": {
+          "hit": true,
+          "detail": "rank 1"
+        }
+      }
+    },
+    {
+      "id": "Q11",
+      "category": "factoid",
+      "question": "What is the purpose of separation of duties as a security control?",
+      "trap": false,
+      "judged": {
+        "baseline": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "multiquery": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "hyde": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "filtered": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "optimized": {
+          "hit": true,
+          "detail": "rank 1"
+        }
+      }
+    },
+    {
+      "id": "Q12",
+      "category": "factoid",
+      "question": "What must organizations establish and authorize for remote access connections?",
+      "trap": false,
+      "judged": {
+        "baseline": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "multiquery": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "hyde": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "filtered": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "optimized": {
+          "hit": true,
+          "detail": "rank 1"
+        }
+      }
+    },
+    {
+      "id": "Q13",
+      "category": "factoid",
+      "question": "What control prevents access to a device by initiating a lock after inactivity?",
+      "trap": false,
+      "judged": {
+        "baseline": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "multiquery": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "hyde": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "filtered": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "optimized": {
+          "hit": true,
+          "detail": "rank 1"
+        }
+      }
+    },
+    {
+      "id": "Q14",
+      "category": "factoid",
+      "question": "What must be authorized before allowing wireless networking connections?",
+      "trap": false,
+      "judged": {
+        "baseline": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "multiquery": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "hyde": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "filtered": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "optimized": {
+          "hit": true,
+          "detail": "rank 1"
+        }
+      }
+    },
+    {
+      "id": "Q15",
+      "category": "cross-domain",
+      "question": "According to the security standard, what should limit each user to only the minimum access required to do their job?",
+      "trap": false,
+      "judged": {
+        "baseline": {
+          "hit": true,
+          "detail": "rank 2"
+        },
+        "multiquery": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "hyde": {
+          "hit": true,
+          "detail": "rank 1"
+        },
+        "filtered": {
+          "hit": true,
+          "detail": "rank 2"
+        },
+        "optimized": {
+          "hit": true,
+          "detail": "rank 1"
+        }
+      }
+    },
+    {
+      "id": "Q16",
+      "category": "compound",
+      "question": "What did Gregor Samsa transform into, and what instrument does his sister play?",
+      "trap": false,
+      "judged": {
+        "baseline": {
+          "hit": true,
+          "detail": "2/2 facts"
+        },
+        "multiquery": {
+          "hit": false,
+          "detail": "1/2 facts"
+        },
+        "hyde": {
+          "hit": false,
+          "detail": "1/2 facts"
+        },
+        "filtered": {
+          "hit": true,
+          "detail": "2/2 facts"
+        },
+        "optimized": {
+          "hit": true,
+          "detail": "2/2 facts"
+        }
+      }
+    },
+    {
+      "id": "Q17",
+      "category": "compound",
+      "question": "Who is the narrator of Moby-Dick, and what does the NIST principle of least privilege require?",
+      "trap": false,
+      "judged": {
+        "baseline": {
+          "hit": false,
+          "detail": "0/2 facts"
+        },
+        "multiquery": {
+          "hit": false,
+          "detail": "0/2 facts"
+        },
+        "hyde": {
+          "hit": false,
+          "detail": "1/2 facts"
+        },
+        "filtered": {
+          "hit": false,
+          "detail": "0/2 facts"
+        },
+        "optimized": {
+          "hit": false,
+          "detail": "1/2 facts"
+        }
+      }
+    },
+    {
+      "id": "Q18",
+      "category": "compound",
+      "question": "Which control covers account management, and what does separation of duties address?",
+      "trap": false,
+      "judged": {
+        "baseline": {
+          "hit": true,
+          "detail": "2/2 facts"
+        },
+        "multiquery": {
+          "hit": true,
+          "detail": "2/2 facts"
+        },
+        "hyde": {
+          "hit": true,
+          "detail": "2/2 facts"
+        },
+        "filtered": {
+          "hit": true,
+          "detail": "2/2 facts"
+        },
+        "optimized": {
+          "hit": true,
+          "detail": "2/2 facts"
+        }
+      }
+    },
+    {
+      "id": "Q19",
+      "category": "trap",
+      "question": "What is the capital of France?",
+      "trap": true,
+      "judged": {
+        "baseline": {
+          "hit": false,
+          "detail": "miss"
+        },
+        "multiquery": {
+          "hit": false,
+          "detail": "miss"
+        },
+        "hyde": {
+          "hit": false,
+          "detail": "miss"
+        },
+        "filtered": {
+          "hit": false,
+          "detail": "miss"
+        },
+        "optimized": {
+          "hit": false,
+          "detail": "miss"
+        }
+      }
+    },
+    {
+      "id": "Q20",
+      "category": "trap",
+      "question": "How do you configure a Kubernetes ingress controller?",
+      "trap": true,
+      "judged": {
+        "baseline": {
+          "hit": false,
+          "detail": "miss"
+        },
+        "multiquery": {
+          "hit": false,
+          "detail": "miss"
+        },
+        "hyde": {
+          "hit": false,
+          "detail": "miss"
+        },
+        "filtered": {
+          "hit": false,
+          "detail": "miss"
+        },
+        "optimized": {
+          "hit": false,
+          "detail": "miss"
+        }
+      }
+    }
+  ]
+}
