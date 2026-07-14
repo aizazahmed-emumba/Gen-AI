@@ -23,20 +23,22 @@ def parse_retry_seconds(message, default=5.0):
     return total if total > 0 else default
 
 
-def ask(prompt, model="llama-3.3-70b-versatile", temperature=0.7, system=None, max_retries=3, max_wait_seconds=60):
+def ask(prompt, model="llama-3.3-70b-versatile", temperature=0.7, system=None, max_retries=3, max_wait_seconds=60, response_format=None):
     client = get_client()
     messages = []
     if system:
         messages.append({"role": "system", "content": system})
     messages.append({"role": "user", "content": prompt})
 
+    # response_format={"type": "json_object"} turns on Groq's JSON mode, which
+    # guarantees syntactically valid JSON (but NOT that it matches your schema).
+    kwargs = {"model": model, "messages": messages, "temperature": temperature}
+    if response_format is not None:
+        kwargs["response_format"] = response_format
+
     for attempt in range(max_retries + 1):
         try:
-            response = client.chat.completions.create(
-                model=model,
-                messages=messages,
-                temperature=temperature,
-            )
+            response = client.chat.completions.create(**kwargs)
             return response.choices[0].message.content
         except RateLimitError as e:
             wait = parse_retry_seconds(str(e))

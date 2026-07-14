@@ -1,0 +1,60 @@
+{
+  "correct": {
+    "extractive": 9,
+    "free_form": 18,
+    "citation_enforced": 14
+  },
+  "cite": {
+    "extractive": 23,
+    "free_form": 20,
+    "citation_enforced": 15
+  },
+  "valid": {
+    "extractive": 23,
+    "free_form": 2,
+    "citation_enforced": 22
+  },
+  "n": 23,
+  "hallucinations": [
+    [
+      "Q4",
+      "answered from memory; not supported by retrieved context",
+      "The story is narrated by a sailor named Ishmael. The novel opens with "
+    ],
+    [
+      "Q6",
+      "answered from memory; not supported by retrieved context",
+      "Ishmael ends up sharing a bed with the harpooneer Queequeg."
+    ],
+    [
+      "Q7",
+      "answered from memory; not supported by retrieved context",
+      "Jonah"
+    ],
+    [
+      "Q17",
+      "answered from memory; not supported by retrieved context",
+      "The narrator of Herman Melville’s *Moby‑Dick* is Ishmael, a sailor who"
+    ],
+    [
+      "Q19",
+      "answered a trap (no such info in corpus)",
+      "Paris"
+    ],
+    [
+      "Q20",
+      "answered a trap (no such info in corpus)",
+      "To configure a Kubernetes Ingress controller you typically follow thes"
+    ],
+    [
+      "Q21",
+      "answered from memory; not supported by retrieved context",
+      "**Control AC‑11 – Device Lock**\n\n**Core Requirement**\n- The organizati"
+    ],
+    [
+      "Q23",
+      "answered from memory; not supported by retrieved context",
+      "The objective of the AC‑6 control (Access Enforcement – Least Privileg"
+    ]
+  ]
+}

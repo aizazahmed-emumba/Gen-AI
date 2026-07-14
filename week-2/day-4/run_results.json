@@ -1,0 +1,845 @@
+{
+  "results": [
+    {
+      "id": "Q1",
+      "category": "factoid",
+      "question": "What does Gregor Samsa discover he has transformed into?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.\", \"citations\": [1], \"confidence\": 0.56}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.",
+            "citations": [
+              1
+            ],
+            "confidence": 0.56
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"He discovers that he has been transformed into a horrible vermin – a giant insect-like creature (often interpreted as a beetle or cockroach).\",\n  \"citations\": [\n    {\n      \"source\": \"[1]\",\n      \"text\": \"One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.\"\n    }\n  ],\n  \"confidence\": 0.99\n}",
+          "valid": false,
+          "reason": "citation {'source': '[1]', 'text': 'One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.'} is not an integer",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\"answer\":\"He discovers that he has been transformed into a horrible vermin.\",\"citations\":[1],\"confidence\":0.99}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "He discovers that he has been transformed into a horrible vermin.",
+            "citations": [
+              1
+            ],
+            "confidence": 0.99
+          }
+        }
+      }
+    },
+    {
+      "id": "Q2",
+      "category": "factoid",
+      "question": "What is Gregor Samsa's occupation?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"Samsa!\\u201d, shouted the middle gentleman to Gregor\\u2019s father, pointing, without wasting any more words, with his forefinger at Gregor as he slowly moved forward.\", \"citations\": [4], \"confidence\": 0.5}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "Samsa!”, shouted the middle gentleman to Gregor’s father, pointing, without wasting any more words, with his forefinger at Gregor as he slowly moved forward.",
+            "citations": [
+              4
+            ],
+            "confidence": 0.5
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"Greg​or Samsa works as a travelling salesman (a travelling representative).\",\n  \"citations\": [\n    {\n      \"source\": \"[2]\",\n      \"text\": \"…he lifted him from a junior salesman to a travelling representative almost overnight…\"\n    }\n  ],\n  \"confidence\": 0.99\n}",
+          "valid": false,
+          "reason": "citation {'source': '[2]', 'text': '…he lifted him from a junior salesman to a travelling representative almost overnight…'} is not an integer",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\n  \"answer\": \"Gregor Samsa worked as a salesman, eventually becoming a travelling representative.\",\n  \"citations\": [2],\n  \"confidence\": 0.96\n}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "Gregor Samsa worked as a salesman, eventually becoming a travelling representative.",
+            "citations": [
+              2
+            ],
+            "confidence": 0.96
+          }
+        }
+      }
+    },
+    {
+      "id": "Q3",
+      "category": "factoid",
+      "question": "What musical instrument does Gregor's sister play?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"Meanwhile Gregor\\u2019s sister had overcome the despair she had fallen into when her playing was suddenly interrupted.\", \"citations\": [1], \"confidence\": 0.38}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "Meanwhile Gregor’s sister had overcome the despair she had fallen into when her playing was suddenly interrupted.",
+            "citations": [
+              1
+            ],
+            "confidence": 0.38
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"She plays the violin.\",\n  \"citations\": [\n    \"Excerpt [1] describes her letting the \\\"violin and bow\\\" hang limply.\",\n    \"Excerpt [2] notes Gregor’s desire to tug at her skirt so she might come in with her \\\"violin\\\".\",\n    \"Excerpt [3] refers to her as a \\\"gifted and expressive violinist\\\".\",\n    \"Excerpt [4] mentions \\\"his sister with the violin\\\" preparing to play.\"\n  ],\n  \"confidence\": 0.99\n}",
+          "valid": false,
+          "reason": "citation 'Excerpt [1] describes her letting the \"violin and bow\" hang limply.' is not an integer",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\"answer\":\"violin\",\"citations\":[1234],\"confidence\":0.99}",
+          "valid": false,
+          "reason": "citation 1234 out of range 1..5",
+          "parsed": null
+        }
+      }
+    },
+    {
+      "id": "Q4",
+      "category": "factoid",
+      "question": "Who is the narrator of Moby-Dick and how does the novel begin?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"At length, towards noon, upon the final dismissal of the ship?s riggers, and after the Pequod had been hauled out from the wharf, and after the ever-thoughtful Charity had come off in a whale-boat, with her last gift?a night-cap for Stubb, the second mate, her brother-in-law, and a spare Bible for the steward?after all this, the two Captains, Peleg and Bildad, issued from the cabin, and turning to the chief mate, Peleg said: ?Now, Mr.\", \"citations\": [1], \"confidence\": 0.25}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "At length, towards noon, upon the final dismissal of the ship?s riggers, and after the Pequod had been hauled out from the wharf, and after the ever-thoughtful Charity had come off in a whale-boat, with her last gift?a night-cap for Stubb, the second mate, her brother-in-law, and a spare Bible for the steward?after all this, the two Captains, Peleg and Bildad, issued from the cabin, and turning to the chief mate, Peleg said: ?Now, Mr.",
+            "citations": [
+              1
+            ],
+            "confidence": 0.25
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"The story is narrated by a sailor named Ishmael. The novel opens with his famous self‑introduction: “Call me Ishmael.”\",\n  \"citations\": [\n    \"[2] (melville) \\\"And, after signing the papers, off I went; ...\\\" – a first‑person account that identifies the narrator as Ishmael.\",\n    \"[0] (melville) The opening line of the novel is the well‑known sentence “Call me Ishmael.”\"\n  ],\n  \"confidence\": \"high\"\n}",
+          "valid": false,
+          "reason": "'confidence' must be a number, got str",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\"answer\":\"NOT IN CONTEXT\",\"citations\":[],\"confidence\":0.2}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "NOT IN CONTEXT",
+            "citations": [],
+            "confidence": 0.2
+          }
+        }
+      }
+    },
+    {
+      "id": "Q5",
+      "category": "factoid",
+      "question": "What is the name of the inn where Ishmael first stays in New Bedford?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"Besides though New Bedford has of late been gradually monopolising the business of whaling, and though in this matter poor old Nantucket is now much behind her, yet Nantucket was her great original?the Tyre of this Carthage;?the place where the first dead American whale was stranded.\", \"citations\": [2], \"confidence\": 0.62}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "Besides though New Bedford has of late been gradually monopolising the business of whaling, and though in this matter poor old Nantucket is now much behind her, yet Nantucket was her great original?the Tyre of this Carthage;?the place where the first dead American whale was stranded.",
+            "citations": [
+              2
+            ],
+            "confidence": 0.62
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"The inn is called the **Spouter‑Inn**.\",\n  \"citations\": [\n    \"[5] ...the landlord of the **Spouter‑Inn** had recommended us to his cousin Hosea Hussey...\"\n  ],\n  \"confidence\": 0.98\n}",
+          "valid": false,
+          "reason": "citation '[5] ...the landlord of the **Spouter‑Inn** had recommended us to his cousin Hosea Hussey...' is not an integer",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\n  \"answer\": \"Spouter-Inn\",\n  \"citations\": [5],\n  \"confidence\": 0.97\n}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "Spouter-Inn",
+            "citations": [
+              5
+            ],
+            "confidence": 0.97
+          }
+        }
+      }
+    },
+    {
+      "id": "Q6",
+      "category": "factoid",
+      "question": "Which harpooneer does Ishmael end up sharing a bed with at the inn?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"There was a fishy flavor to the milk, too, which I could not at all account for, till one morning happening to take a stroll along the beach among some fishermen?s boats, I saw Hosea?s brindled cow feeding on fish remnants, and marching along the sand with each foot in a cod?s decapitated head, looking very slip-shod, I assure ye.\", \"citations\": [4], \"confidence\": 0.38}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "There was a fishy flavor to the milk, too, which I could not at all account for, till one morning happening to take a stroll along the beach among some fishermen?s boats, I saw Hosea?s brindled cow feeding on fish remnants, and marching along the sand with each foot in a cod?s decapitated head, looking very slip-shod, I assure ye.",
+            "citations": [
+              4
+            ],
+            "confidence": 0.38
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"Ishmael ends up sharing a bed with the harpooneer Queequeg.\",\n  **\"citations**\": [\n    {\n      \"source\": \"Moby-Dick; or, The Whale\",\n      \"chapter\": \"Chapter 3 – The Spouter‑Inn\",\n      \"quote\": \"The inn‑keeper told me that there was no room to be had for a single man, and that I must share a bed with a harpooneer.  I was told that the harpooneer’s name was Queequeg, a native of the island of Kokovoko, and that we would have to lie together in the same berth.\"\n    }\n  ],\n  \"confidence\": 0.97\n}",
+          "valid": false,
+          "reason": "invalid JSON syntax",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\n  \"answer\": \"NOT IN CONTEXT\",\n  \"citations\": [],\n  \"confidence\": 0.2\n}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "NOT IN CONTEXT",
+            "citations": [],
+            "confidence": 0.2
+          }
+        }
+      }
+    },
+    {
+      "id": "Q7",
+      "category": "factoid",
+      "question": "Which biblical figure is the subject of Father Mapple's sermon in the chapel?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"At the time I now write of, Father Mapple was in the hardy winter of a healthy old age; that sort of old\", \"citations\": [1], \"confidence\": 0.38}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "At the time I now write of, Father Mapple was in the hardy winter of a healthy old age; that sort of old",
+            "citations": [
+              1
+            ],
+            "confidence": 0.38
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"Jonah\",\n  \"citations\": [\n    \"Melville, Herman. *Moby‑Dick; or, The Whale*, Chapter 9 (“The Sermon”). In this chapter Father Mapple delivers his famous sermon on the biblical prophet Jonah, who was swallowed by a great fish.\",\n    \"Melville, Herman. *Moby‑Dick; or, The Whale*, Chapter 9, lines 1‑5: “Now as I was a young man, I was a sailor… I have a story to tell of the Prophet Jonah, who was swallowed by a whale…”\"\n  ],\n  \"confidence\": 0.97\n}",
+          "valid": false,
+          "reason": "citation 'Melville, Herman. *Moby‑Dick; or, The Whale*, Chapter 9 (“The Sermon”). In this chapter Father Mapple delivers his famous sermon on the biblical prophet Jonah, who was swallowed by a great fish.' is not an integer",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\n  \"answer\": \"NOT IN CONTEXT\",\n  \"citations\": [],\n  \"confidence\": 0.2\n}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "NOT IN CONTEXT",
+            "citations": [],
+            "confidence": 0.2
+          }
+        }
+      }
+    },
+    {
+      "id": "Q8",
+      "category": "factoid",
+      "question": "What does the principle of least privilege require organizations to do?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"Control:  Employ the principle of least privilege, allowing only authorized accesses for users (or processes acting on behalf of users) that are necessary to accomplish assigned organizational tasks.\", \"citations\": [1], \"confidence\": 0.55}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "Control:  Employ the principle of least privilege, allowing only authorized accesses for users (or processes acting on behalf of users) that are necessary to accomplish assigned organizational tasks.",
+            "citations": [
+              1
+            ],
+            "confidence": 0.55
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"The principle of least privilege requires organizations to grant users, processes, and roles only the minimum access rights and privileges that are needed to perform their assigned duties. Access must be limited to what is strictly necessary for the task, and any privileged access should be restricted to organizational users and reviewed periodically to ensure it remains justified.\",\n  \"citations\": [\n    \"[1]\",\n    \"[4]\"\n  ],\n  \"confidence\": 0.97\n}",
+          "valid": false,
+          "reason": "citation '[1]' is not an integer",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\n  \"answer\": \"It requires organizations to allow only those accesses that are authorized and necessary for users (or the processes acting on their behalf) to perform their assigned tasks, ensuring that privileges are no higher than needed to accomplish the organization’s mission or business functions.\",\n  \"citations\": [1, 3],\n  \"confidence\": 0.97\n}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "It requires organizations to allow only those accesses that are authorized and necessary for users (or the processes acting on their behalf) to perform their assigned tasks, ensuring that privileges are no higher than needed to accomplish the organization’s mission or business functions.",
+            "citations": [
+              1,
+              3
+            ],
+            "confidence": 0.97
+          }
+        }
+      }
+    },
+    {
+      "id": "Q9",
+      "category": "factoid",
+      "question": "Which access control addresses creating, enabling, and removing user accounts?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"(7) ACCOUNT MANAGEMENT | PRIVILEGED USER ACCOUNTS (a) Establish and administer privileged user accounts in accordance with [Selection: a role- based access scheme; an attribute-based access scheme]; (b) Monitor privileged role or attribute assignments; (c) Monitor changes to roles or attributes; and (d) Revoke access when privileged role or attribute assignments are no longer appropriate.\", \"citations\": [1], \"confidence\": 0.4}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "(7) ACCOUNT MANAGEMENT | PRIVILEGED USER ACCOUNTS (a) Establish and administer privileged user accounts in accordance with [Selection: a role- based access scheme; an attribute-based access scheme]; (b) Monitor privileged role or attribute assignments; (c) Monitor changes to roles or attributes; and (d) Revoke access when privileged role or attribute assignments are no longer appropriate.",
+            "citations": [
+              1
+            ],
+            "confidence": 0.4
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"The access‑control control that covers the creation, enabling, modification, disabling, and removal of user accounts is **Account Management (AC‑2)**.\",\n  \"citations\": [\n    \"[2] (nist) Control: … Create, enable, modify, disabl…\",\n    \"[1] (nist) ACCOUNT MANAGEMENT | PRIVILEGED USER ACCOUNTS … Revoke access when privileged role or attribute assignments are no longer appropriate.\"\n  ],\n  \"confidence\": 0.96\n}",
+          "valid": false,
+          "reason": "citation '[2] (nist) Control: …\\u202fCreate, enable, modify, disabl…' is not an integer",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\n  \"answer\": \"The Account Management access control (AC‑2) addresses creating, enabling, and removing user accounts.\",\n  \"citations\": [2],\n  \"confidence\": 0.95\n}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "The Account Management access control (AC‑2) addresses creating, enabling, and removing user accounts.",
+            "citations": [
+              2
+            ],
+            "confidence": 0.95
+          }
+        }
+      }
+    },
+    {
+      "id": "Q10",
+      "category": "factoid",
+      "question": "What does the access enforcement control require a system to do?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"(12) ACCESS ENFORCEMENT | ASSERT AND ENFORCE APPLICATION ACCESS (a) Require applications to assert, as part of the installation process, the access needed to the following system applications and functions: [Assignment: organization-defined system applications and functions]; (b) Provide an enforcement mechanism to prevent unauthorized access; and (c) Approve access changes after initial installation of the application.\", \"citations\": [1], \"confidence\": 0.64}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "(12) ACCESS ENFORCEMENT | ASSERT AND ENFORCE APPLICATION ACCESS (a) Require applications to assert, as part of the installation process, the access needed to the following system applications and functions: [Assignment: organization-defined system applications and functions]; (b) Provide an enforcement mechanism to prevent unauthorized access; and (c) Approve access changes after initial installation of the application.",
+            "citations": [
+              1
+            ],
+            "confidence": 0.64
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"The access‑enforcement control requires the system to enforce approved authorizations for logical access to information and system resources. In practice this means that every access request must be evaluated against the organization’s access‑control policies and that the system must provide a mechanism that blocks any request that is not explicitly authorized, thereby preventing unauthorized access.\",\n  \"citations\": [\n    \"[3] NIST – “Enforce approved authorizations for logical access to information and system resources in accordance with applicable access control policies.”\",\n    \"[4] NIST – “Ensure organization‑defined access control decisions are applied to each access request prior to access enforcement.”\"\n  ],\n  \"confidence\": 0.96\n}",
+          "valid": false,
+          "reason": "citation '[3] NIST – “Enforce approved authorizations for logical access to information and system resources in accordance with applicable access control policies.”' is not an integer",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\n  \"answer\": \"It requires the system to have applications assert the access they need during installation, to provide an enforcement mechanism that blocks unauthorized access, and to approve any access changes after the initial installation.\",\n  \"citations\": [1],\n  \"confidence\": 0.95\n}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "It requires the system to have applications assert the access they need during installation, to provide an enforcement mechanism that blocks unauthorized access, and to approve any access changes after the initial installation.",
+            "citations": [
+              1
+            ],
+            "confidence": 0.95
+          }
+        }
+      }
+    },
+    {
+      "id": "Q11",
+      "category": "factoid",
+      "question": "What is the purpose of separation of duties as a security control?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"Discussion:  Separation of duties addresses the potential for abuse of authorized privileges and helps to reduce the risk of malevolent activity without collusion.\", \"citations\": [1], \"confidence\": 0.36}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "Discussion:  Separation of duties addresses the potential for abuse of authorized privileges and helps to reduce the risk of malevolent activity without collusion.",
+            "citations": [
+              1
+            ],
+            "confidence": 0.36
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"Separation of duties is a preventive security control that limits the amount of power or authority any single individual can exercise over a critical process. By dividing mission‑ or business‑critical functions among different people or roles, it makes it harder for a user to abuse authorized privileges, because no one person can both initiate and approve a transaction, or configure and audit a system. This reduces the risk of intentional or accidental malicious activity – especially when there is no collusion – and provides an inherent check‑and‑balance that helps detect errors or fraud.\\n\\nIn practice, organizations identify which duties must be split, document those duties, and enforce them through system access authorizations and role‑based permissions. The control therefore protects the integrity, confidentiality, and availability of information by preventing a single point of failure or a single point of abuse.\",\n  \"citations\": [\n    \"[1] NIST SP 800-53 Rev.5 – Separation of Duties control: \\\"Separation of duties addresses the potential for abuse of authorized privileges and helps to reduce the risk of malevolent activity without collusion. Separation of duties includes dividing mission or business functions and support functions among different individuals or roles...\\\"\"\n  ],\n  \"confidence\": 0.97\n}",
+          "valid": false,
+          "reason": "citation '[1] NIST SP 800-53 Rev.5 – Separation of Duties control: \"Separation of duties addresses the potential for abuse of authorized privileges and helps to reduce the risk of malevolent activity without collusion. Separation of duties includes dividing mission or business functions and support functions among different individuals or roles...\"' is not an integer",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\"answer\":\"The purpose of separation of duties is to address the potential for abuse of authorized privileges and to reduce the risk of malicious activity that could occur without collusion by dividing mission, business, and support functions among different individuals or roles.\",\"citations\":[1],\"confidence\":0.97}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "The purpose of separation of duties is to address the potential for abuse of authorized privileges and to reduce the risk of malicious activity that could occur without collusion by dividing mission, business, and support functions among different individuals or roles.",
+            "citations": [
+              1
+            ],
+            "confidence": 0.97
+          }
+        }
+      }
+    },
+    {
+      "id": "Q12",
+      "category": "factoid",
+      "question": "What must organizations establish and authorize for remote access connections?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"Establish and document usage restrictions, configuration/connection requirements, and implementation guidance for each type of remote access allowed; and b.\", \"citations\": [1], \"confidence\": 0.5}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "Establish and document usage restrictions, configuration/connection requirements, and implementation guidance for each type of remote access allowed; and b.",
+            "citations": [
+              1
+            ],
+            "confidence": 0.5
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"Organizations must (a) establish and document usage restrictions, configuration/connection requirements, and implementation guidance for each type of remote access they allow, and (b) formally authorize each type of remote access to the system before permitting any such connections.\",\n  \"citations\": [\n    \"[1] NIST SP 800-53 Rev.5, AC‑2 (a) – Establish and document usage restrictions, configuration/connection requirements, and implementation guidance for each type of remote access allowed; and (b) Authorize each type of remote access to the system prior to allowing such connections.\"\n  ],\n  \"confidence\": 0.96\n}",
+          "valid": false,
+          "reason": "citation '[1] NIST SP 800-53 Rev.5, AC‑2 (a) – Establish and document usage restrictions, configuration/connection requirements, and implementation guidance for each type of remote access allowed; and (b) Authorize each type of remote access to the system prior to allowing such connections.' is not an integer",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\n  \"answer\": \"Organizations must establish and document usage restrictions, configuration/connection requirements, and implementation guidance for each type of remote access allowed, and they must authorize each type of remote access to the system before allowing such connections.\",\n  \"citations\": [1],\n  \"confidence\": 0.98\n}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "Organizations must establish and document usage restrictions, configuration/connection requirements, and implementation guidance for each type of remote access allowed, and they must authorize each type of remote access to the system before allowing such connections.",
+            "citations": [
+              1
+            ],
+            "confidence": 0.98
+          }
+        }
+      }
+    },
+    {
+      "id": "Q13",
+      "category": "factoid",
+      "question": "What control prevents access to a device by initiating a lock after inactivity?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"Prevent further access to the system by [Selection (one or more): initiating a device lock after [Assignment: organization-defined time period] of inactivity; requiring the user to initiate a device lock before leaving the system unattended]; and b.\", \"citations\": [1], \"confidence\": 0.75}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "Prevent further access to the system by [Selection (one or more): initiating a device lock after [Assignment: organization-defined time period] of inactivity; requiring the user to initiate a device lock before leaving the system unattended]; and b.",
+            "citations": [
+              1
+            ],
+            "confidence": 0.75
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"The control is **AC‑11 – Device Lock**. It requires that a device automatically initiate a lock after an organization‑defined period of inactivity to prevent further access.\",\n  \"citations\": [\n    \"[1] NIST SP 800‑53 Rev. 5 – Control description: “Prevent further access to the system by … initiating a device lock after [Assignment: organization‑defined time period] of inactivity….”\",\n    \"[2] NIST SP 800‑53 Rev. 5 – Discussion of device locks and related controls, confirming that AC‑11 addresses device lock functionality.\"\n  ],\n  \"confidence\": \"high\"\n}",
+          "valid": false,
+          "reason": "'confidence' must be a number, got str",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\"answer\":\"Initiating a device lock after a defined period of inactivity prevents access to the device.\",\"citations\":[1],\"confidence\":0.98}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "Initiating a device lock after a defined period of inactivity prevents access to the device.",
+            "citations": [
+              1
+            ],
+            "confidence": 0.98
+          }
+        }
+      }
+    },
+    {
+      "id": "Q14",
+      "category": "factoid",
+      "question": "What must be authorized before allowing wireless networking connections?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"Authorize each type of wireless access to the system prior to allowing such connections.\", \"citations\": [1], \"confidence\": 0.33}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "Authorize each type of wireless access to the system prior to allowing such connections.",
+            "citations": [
+              1
+            ],
+            "confidence": 0.33
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"Each type of wireless access (i.e., each wireless networking capability) must be authorized before allowing wireless networking connections to the system.\",\n  \"citations\": [\n    \"[1] NIST SP 800-53 Rev.5, Control: “...b. Authorize each type of wireless access to the system prior to allowing such connections.”\"\n  ],\n  \"confidence\": 0.97\n}",
+          "valid": false,
+          "reason": "citation '[1] NIST SP 800-53 Rev.5, Control: “...b. Authorize each type of wireless access to the system prior to allowing such connections.”' is not an integer",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\n  \"answer\": \"Each type of wireless access must be authorized before allowing wireless networking connections.\",\n  \"citations\": [1],\n  \"confidence\": 0.97\n}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "Each type of wireless access must be authorized before allowing wireless networking connections.",
+            "citations": [
+              1
+            ],
+            "confidence": 0.97
+          }
+        }
+      }
+    },
+    {
+      "id": "Q15",
+      "category": "cross-domain",
+      "question": "According to the security standard, what should limit each user to only the minimum access required to do their job?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"Where access involves personally identifiable information, security programs collaborate with the senior agency official for privacy to establish the specific conditions for group and role membership; specify authorized users, group and role membership, and access authorizations for each account; and create, adjust, or remove system accounts in accordance with organizational policies.\", \"citations\": [3], \"confidence\": 0.29}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "Where access involves personally identifiable information, security programs collaborate with the senior agency official for privacy to establish the specific conditions for group and role membership; specify authorized users, group and role membership, and access authorizations for each account; and create, adjust, or remove system accounts in accordance with organizational policies.",
+            "citations": [
+              3
+            ],
+            "confidence": 0.29
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"The security standard states that the *principle of least privilege* (e.g., AC‑6) should be applied so that each user is granted only the minimum access necessary to perform their job functions.\",\n  \"citations\": [\n    \"[2] (nist) ...the concept of least privilege (see AC-6). Trusted subjects are only given the minimum privileges necessary for satisfying organizational mission/business needs...\",\n    \"[5] (nist) Control Enhancements: (1) LEAST PRIVILEGE | AUTHORIZE ACCESS TO SECURITY FUNCTIONS ...\"\n  ],\n  \"confidence\": 0.98\n}",
+          "valid": false,
+          "reason": "citation '[2] (nist) ...the concept of least privilege (see AC-6). Trusted subjects are only given the minimum privileges necessary for satisfying organizational mission/business needs...' is not an integer",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\n  \"answer\": \"The principle of least privilege should limit each user to only the minimum access required to do their job.\",\n  \"citations\": [2],\n  \"confidence\": 0.97\n}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "The principle of least privilege should limit each user to only the minimum access required to do their job.",
+            "citations": [
+              2
+            ],
+            "confidence": 0.97
+          }
+        }
+      }
+    },
+    {
+      "id": "Q16",
+      "category": "compound",
+      "question": "What did Gregor Samsa transform into, and what instrument does his sister play?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"In itself, his sister\\u2019s not coming into the room would have been no surprise for Gregor as it would have been difficult for her to immediately open the window while he was still there, but not only did she not come in, she went straight back and closed the door behind her, a stranger would have thought he had th\", \"citations\": [3], \"confidence\": 0.5}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "In itself, his sister’s not coming into the room would have been no surprise for Gregor as it would have been difficult for her to immediately open the window while he was still there, but not only did she not come in, she went straight back and closed the door behind her, a stranger would have thought he had th",
+            "citations": [
+              3
+            ],
+            "confidence": 0.5
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"Gregor Samsa was transformed into a horrible vermin (often described as a giant insect), and his sister Grete is a gifted violinist who plays the violin.\",\n  \"citations\": [\"[4]\",\"[1]\"],\n  \"confidence\": 0.97\n}",
+          "valid": false,
+          "reason": "citation '[4]' is not an integer",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\n  \"answer\": \"Gregor Samsa transformed into a horrible vermin, and his sister plays the violin.\",\n  \"citations\": [4, 1],\n  \"confidence\": 0.97\n}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "Gregor Samsa transformed into a horrible vermin, and his sister plays the violin.",
+            "citations": [
+              4,
+              1
+            ],
+            "confidence": 0.97
+          }
+        }
+      }
+    },
+    {
+      "id": "Q17",
+      "category": "compound",
+      "question": "Who is the narrator of Moby-Dick, and what does the NIST principle of least privilege require?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"And taken with the context, this is full of meaning.\", \"citations\": [4], \"confidence\": 0.27}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "And taken with the context, this is full of meaning.",
+            "citations": [
+              4
+            ],
+            "confidence": 0.27
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"The narrator of Herman Melville’s *Moby‑Dick* is Ishmael, a sailor who signs on to the Pequod and tells the story in the first‑person voice. The NIST “least‑privilege” principle (found in NIST SP 800‑53 and related guidance) requires that any user, process, or system be granted only the minimal set of permissions needed to accomplish its legitimate tasks – no more, no less – and that those privileges be revoked when they are no longer required.\",\n  \"citations\": [\n    \"Wikipedia – Moby‑Dick: \\\"The novel is narrated by Ishmael, a sailor on the Pequod...\\\"\",\n    \"NIST Special Publication 800‑53 Revision 5, Security and Privacy Controls for Information Systems and Organizations – Control AC‑6 (Least Privilege): \\\"The organization limits user privileges to the minimum necessary to perform assigned tasks...\\\"\"\n  ],\n  \"confidence\": \"high\"\n}",
+          "valid": false,
+          "reason": "'confidence' must be a number, got str",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\n  \"answer\": \"NOT IN CONTEXT\",\n  \"citations\": [],\n  \"confidence\": 0.1\n}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "NOT IN CONTEXT",
+            "citations": [],
+            "confidence": 0.1
+          }
+        }
+      }
+    },
+    {
+      "id": "Q18",
+      "category": "compound",
+      "question": "Which control covers account management, and what does separation of duties address?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"Identify and document [Assignment: organization-defined duties of individuals requiring separation]; and b.\", \"citations\": [1], \"confidence\": 0.33}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "Identify and document [Assignment: organization-defined duties of individuals requiring separation]; and b.",
+            "citations": [
+              1
+            ],
+            "confidence": 0.33
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"The NIST SP 800‑53 control that covers account management is **AC‑2 (Account Management)**. The concept of separation of duties is addressed by **AC‑5 (Separation of Duties)**, which is intended to prevent the abuse of authorized privileges by dividing critical functions among different individuals and thereby reducing the risk of malicious activity without collusion.\",\n  \"citations\": [\n    \"[2] (nist) Control: a. Define and document the types of accounts allowed … (Account Management)\",\n    \"[1] (nist) Control: a. Identify and document … separation; Discussion: Separation of duties addresses the potential for abuse of authorized privileges and helps to reduce the risk of malevolent activity without collusion.\"\n  ],\n  \"confidence\": 0.96\n}",
+          "valid": false,
+          "reason": "citation '[2] (nist) Control: a. Define and document the types of accounts allowed … (Account Management)' is not an integer",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\n  \"answer\": \"The account management control is described in passage [2]. Separation of duties addresses the potential for abuse of authorized privileges and helps reduce the risk of malevolent activity without collusion.\",\n  \"citations\": [2, 1],\n  \"confidence\": 0.97\n}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "The account management control is described in passage [2]. Separation of duties addresses the potential for abuse of authorized privileges and helps reduce the risk of malevolent activity without collusion.",
+            "citations": [
+              2,
+              1
+            ],
+            "confidence": 0.97
+          }
+        }
+      }
+    },
+    {
+      "id": "Q19",
+      "category": "trap",
+      "question": "What is the capital of France?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"says an old writer?of whose works I possess the only copy extant??it maketh a marvellous difference, whether thou lookest out at it from a glass window where the frost is all on the outside, or whether thou observest it from that sashless window, where the frost is on bo\", \"citations\": [1], \"confidence\": 0.5}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "says an old writer?of whose works I possess the only copy extant??it maketh a marvellous difference, whether thou lookest out at it from a glass window where the frost is all on the outside, or whether thou observest it from that sashless window, where the frost is on bo",
+            "citations": [
+              1
+            ],
+            "confidence": 0.5
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"Paris\",\n  \"citations\": [],\n  \"confidence\": 0.99\n}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "Paris",
+            "citations": [],
+            "confidence": 0.99
+          }
+        },
+        "citation_enforced": {
+          "raw": "{\"answer\":\"NOT IN CONTEXT\",\"citations\":[],\"confidence\":0.1}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "NOT IN CONTEXT",
+            "citations": [],
+            "confidence": 0.1
+          }
+        }
+      }
+    },
+    {
+      "id": "Q20",
+      "category": "trap",
+      "question": "How do you configure a Kubernetes ingress controller?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"(7) BASELINE CONFIGURATION | CONFIGURE SYSTEMS AND COMPONENTS FOR HIGH-RISK AREAS (a) Issue [Assignment: organization-defined systems or system components] with [Assignment: organization-defined configurations] to individuals traveling to location\", \"citations\": [5], \"confidence\": 0.25}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "(7) BASELINE CONFIGURATION | CONFIGURE SYSTEMS AND COMPONENTS FOR HIGH-RISK AREAS (a) Issue [Assignment: organization-defined systems or system components] with [Assignment: organization-defined configurations] to individuals traveling to location",
+            "citations": [
+              5
+            ],
+            "confidence": 0.25
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"To configure a Kubernetes Ingress controller you typically follow these steps:\\n\\n1. **Choose an Ingress controller** – Common options are the NGINX Ingress Controller, Traefik, HAProxy, or the cloud‑provider‑specific controllers (e.g., GKE Ingress, AWS ALB Ingress).  The choice determines the installation method and the feature set (TLS termination, authentication, rate‑limiting, etc.).\\n\\n2. **Deploy the controller** – The controller runs as a Deployment (or DaemonSet) in the cluster and watches `Ingress` resources.\\n   - **Helm (recommended)**: \\n     ```bash\\n     helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx\\n     helm repo update\\n     helm install my-nginx ingress-nginx/ingress-nginx \\\\\\n          --namespace ingress-nginx --create-namespace \\\\\\n          --set controller.replicaCount=2 \\\\\\n          --set controller.service.type=LoadBalancer\\n     ```\\n   - **Manifests**: Apply the official YAML manifests.\\n     ```bash\\n     kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/cloud/deploy.yaml\\n     ```\\n   - **RBAC**: The Helm chart or manifest includes a ServiceAccount, Role, and RoleBinding that give the controller permission to read `Ingress`, `Service`, `Endpoint`, and `ConfigMap` objects.\\n\\n3. **Verify the controller is running**\\n   ```bash\\n   kubectl get pods -n ingress-nginx -l app.kubernetes.io/name=ingress-nginx\\n   kubectl get svc -n ingress-nginx\\n   ```\\n   You should see a Service of type `LoadBalancer` (or `NodePort`/`ClusterIP` depending on your setup) exposing the controller’s external IP.\\n\\n4. **Create an Ingress resource** – This is the declarative object that maps host/path rules to Services.\\n   ```yaml\\n   apiVersion: networking.k8s.io/v1\\n   kind: Ingress\\n   metadata:\\n     name: example-ingress\\n     namespace: default\\n     annotations:\\n       nginx.ingress.kubernetes.io/rewrite-target: /$1\\n       # TLS termination (optional)\\n       # nginx.ingress.kubernetes.io/ssl-redirect: \\\"true\\\"\\n   spec:\\n     ingressClassName: nginx\\n     tls:\\n     - hosts:\\n       - example.com\\n       secretName: example-tls   # pre‑created TLS secret\\n     rules:\\n     - host: example.com\\n       http:\\n         paths:\\n         - path: /api/(.*)\\n           pathType: Prefix\\n           backend:\\n             service:\\n               name: api-service\\n               port:\\n                 number: 80\\n   ```\\n   Apply it with `kubectl apply -f ingress.yaml`.\\n\\n5. **Configure DNS** – Point the domain (`example.com` in the example) to the external IP of the Ingress Service (the LoadBalancer IP or a cloud‑provided DNS name).\\n\\n6. **Optional advanced configuration** –\\n   - **TLS certificates**: Use cert‑manager to automatically obtain and renew certificates from Let’s Encrypt and reference the generated secret in the Ingress `tls.secretName`.\\n   - **Authentication**: Add annotations for basic auth, OIDC, or external auth services.\\n   - **Rate limiting / WAF**: Use controller‑specific annotations (e.g., `nginx.ingress.kubernetes.io/limit-rps`).\\n   - **Custom configuration**: Create a ConfigMap named `nginx‑configuration` (or controller‑specific name) and reference it via the `controller.configMap` Helm value to tweak time‑outs, buffer sizes, etc.\\n\\n7. **Test the routing** – Curl or browse to the host/path and verify traffic reaches the intended Service.\\n   ```bash\\n   curl -k https://example.com/api/health\\n   ```\\n\\n**Summary**: Install the controller (via Helm or manifests), ensure it has proper RBAC and a Service exposing it, create `Ingress` resources that define host/path rules and optional TLS, point DNS to the controller’s external IP, and optionally add annotations or ConfigMaps for advanced features.\\n\\n---\\n**Note**: The steps above are generic for the NGINX Ingress controller; other controllers follow a similar pattern but may use different annotations, CRDs, or installation commands.\",\n  \"citations\": [],\n  \"confidence\": 0.97\n}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "To configure a Kubernetes Ingress controller you typically follow these steps:\n\n1. **Choose an Ingress controller** – Common options are the NGINX Ingress Controller, Traefik, HAProxy, or the cloud‑provider‑specific controllers (e.g., GKE Ingress, AWS ALB Ingress).  The choice determines the installation method and the feature set (TLS termination, authentication, rate‑limiting, etc.).\n\n2. **Deploy the controller** – The controller runs as a Deployment (or DaemonSet) in the cluster and watches `Ingress` resources.\n   - **Helm (recommended)**: \n     ```bash\n     helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx\n     helm repo update\n     helm install my-nginx ingress-nginx/ingress-nginx \\\n          --namespace ingress-nginx --create-namespace \\\n          --set controller.replicaCount=2 \\\n          --set controller.service.type=LoadBalancer\n     ```\n   - **Manifests**: Apply the official YAML manifests.\n     ```bash\n     kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/cloud/deploy.yaml\n     ```\n   - **RBAC**: The Helm chart or manifest includes a ServiceAccount, Role, and RoleBinding that give the controller permission to read `Ingress`, `Service`, `Endpoint`, and `ConfigMap` objects.\n\n3. **Verify the controller is running**\n   ```bash\n   kubectl get pods -n ingress-nginx -l app.kubernetes.io/name=ingress-nginx\n   kubectl get svc -n ingress-nginx\n   ```\n   You should see a Service of type `LoadBalancer` (or `NodePort`/`ClusterIP` depending on your setup) exposing the controller’s external IP.\n\n4. **Create an Ingress resource** – This is the declarative object that maps host/path rules to Services.\n   ```yaml\n   apiVersion: networking.k8s.io/v1\n   kind: Ingress\n   metadata:\n     name: example-ingress\n     namespace: default\n     annotations:\n       nginx.ingress.kubernetes.io/rewrite-target: /$1\n       # TLS termination (optional)\n       # nginx.ingress.kubernetes.io/ssl-redirect: \"true\"\n   spec:\n     ingressClassName: nginx\n     tls:\n     - hosts:\n       - example.com\n       secretName: example-tls   # pre‑created TLS secret\n     rules:\n     - host: example.com\n       http:\n         paths:\n         - path: /api/(.*)\n           pathType: Prefix\n           backend:\n             service:\n               name: api-service\n               port:\n                 number: 80\n   ```\n   Apply it with `kubectl apply -f ingress.yaml`.\n\n5. **Configure DNS** – Point the domain (`example.com` in the example) to the external IP of the Ingress Service (the LoadBalancer IP or a cloud‑provided DNS name).\n\n6. **Optional advanced configuration** –\n   - **TLS certificates**: Use cert‑manager to automatically obtain and renew certificates from Let’s Encrypt and reference the generated secret in the Ingress `tls.secretName`.\n   - **Authentication**: Add annotations for basic auth, OIDC, or external auth services.\n   - **Rate limiting / WAF**: Use controller‑specific annotations (e.g., `nginx.ingress.kubernetes.io/limit-rps`).\n   - **Custom configuration**: Create a ConfigMap named `nginx‑configuration` (or controller‑specific name) and reference it via the `controller.configMap` Helm value to tweak time‑outs, buffer sizes, etc.\n\n7. **Test the routing** – Curl or browse to the host/path and verify traffic reaches the intended Service.\n   ```bash\n   curl -k https://example.com/api/health\n   ```\n\n**Summary**: Install the controller (via Helm or manifests), ensure it has proper RBAC and a Service exposing it, create `Ingress` resources that define host/path rules and optional TLS, point DNS to the controller’s external IP, and optionally add annotations or ConfigMaps for advanced features.\n\n---\n**Note**: The steps above are generic for the NGINX Ingress controller; other controllers follow a similar pattern but may use different annotations, CRDs, or installation commands.",
+            "citations": [],
+            "confidence": 0.97
+          }
+        },
+        "citation_enforced": {
+          "raw": "{\"answer\":\"NOT IN CONTEXT\",\"citations\":[],\"confidence\":0.1}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "NOT IN CONTEXT",
+            "citations": [],
+            "confidence": 0.1
+          }
+        }
+      }
+    },
+    {
+      "id": "Q21",
+      "category": "lexical",
+      "question": "What are the requirements of control AC-11?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"Monitoring requirements, including the need for specific monitoring, may be referenced in other controls and control enhancements, such as AC-2g, AC- 2(7), AC-2(12)(a), AC-2(7)(b), AC-2(7)(c), AC-17(1), AT-4a, AU-13, AU-13(1), AU-13(2), CM-3f, CM- 6d, CM-11c, IR-5, MA-2b, MA-3a, MA-4a, PE-3d, PE-6, PE-14b, PE-16, PE-20, PM-6, PM-23, PM- 31, PS-7e, SA-9c, SR-4, SC-5(3)(b), SC-7a, SC-7(24)(b), SC-18b, SC-43b, and SI-4.\", \"citations\": [1], \"confidence\": 0.5}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "Monitoring requirements, including the need for specific monitoring, may be referenced in other controls and control enhancements, such as AC-2g, AC- 2(7), AC-2(12)(a), AC-2(7)(b), AC-2(7)(c), AC-17(1), AT-4a, AU-13, AU-13(1), AU-13(2), CM-3f, CM- 6d, CM-11c, IR-5, MA-2b, MA-3a, MA-4a, PE-3d, PE-6, PE-14b, PE-16, PE-20, PM-6, PM-23, PM- 31, PS-7e, SA-9c, SR-4, SC-5(3)(b), SC-7a, SC-7(24)(b), SC-18b, SC-43b, and SI-4.",
+            "citations": [
+              1
+            ],
+            "confidence": 0.5
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"**Control AC‑11 – Device Lock**\\n\\n**Core Requirement**\\n- The organization must **enforce a device lock** on information system devices (e.g., workstations, laptops, tablets, mobile phones) after a defined period of inactivity. The lock must require the user to **re‑authenticate** (e.g., password, PIN, biometrics, smart card) before the device can be used again.\\n- The lock must be **automatically applied** by the system; manual lock procedures are not sufficient.\\n- The organization must **document** the inactivity timeout value and the authentication method(s) used to unlock the device.\\n- The device‑lock capability must be **enabled for all devices** that store, process, or display **CUI, PHI, or other sensitive information** and that are used by organizational personnel or contractors.\\n\\n**Implementation Guidance**\\n- Use operating‑system or application‑level settings to enforce the lock (e.g., Windows “Screen Saver – On resume, display logon screen,” macOS “Require password after sleep or screen saver begins”).\\n- For mobile devices, enforce a lock screen with a passcode, biometric, or hardware‑based authentication.\\n- Ensure that the lock persists across **system reboots** and **power‑state changes** (e.g., sleep, hibernate, suspend).\\n- Provide a **fallback mechanism** (e.g., emergency access procedures) that is tightly controlled and audited.\\n\\n**Control Enhancements (Rev. 5)**\\n1. **Automated Lock** – The organization employs automated mechanisms that enforce the lock without user interaction and that can be centrally configured and monitored.\\n2. **Remote Session Lock** – The organization requires that remote sessions (e.g., VPN, RDP, SSH) be automatically locked after the same inactivity period as local sessions.\\n3. **Lock on Inactivity for Specific Applications** – The organization applies additional lock controls for high‑risk applications (e.g., privileged‑access tools, financial‑system interfaces).\\n4. **Lock on Device Theft or Loss** – The organization implements mechanisms that trigger an immediate lock (or wipe) when a device is reported lost or stolen.\\n\\n**Assessment Points**\\n- Verify that the inactivity timeout is configured per policy and that it is enforced on all applicable devices.\\n- Test that re‑authentication is required after the lock is engaged.\\n- Review logs or automated monitoring to confirm that lock events are recorded.\\n- Confirm that the enhancements (if selected) are implemented and effective.\\n\\n**References**\\n- NIST SP 800‑53 Rev. 5, Security and Privacy Controls for Federal Information Systems and Organizations – Control AC‑11 *Device Lock* and its enhancements.\\n- NIST SP 800‑53A Rev. 5, Assessing Security and Privacy Controls – Assessment procedures for AC‑11.\\n- NIST SP 800‑171 Rev. 2, Protecting Controlled Unclassified Information – Requirement 3.1.19 (Device Lock) which mirrors AC‑11.\\n\",\n  \"citations\": [\n    \"NIST SP 800-53 Rev. 5, AC-11 Device Lock\",\n    \"NIST SP 800-53A Rev. 5, Assessment Procedures for AC-11\",\n    \"NIST SP 800-171 Rev. 2, Requirement 3.1.19\"\n  ],\n  \"confidence\": \"high\"\n}",
+          "valid": false,
+          "reason": "'confidence' must be a number, got str",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\"answer\":\"NOT IN CONTEXT\",\"citations\":[],\"confidence\":0.2}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "NOT IN CONTEXT",
+            "citations": [],
+            "confidence": 0.2
+          }
+        }
+      }
+    },
+    {
+      "id": "Q22",
+      "category": "lexical",
+      "question": "What is a harpooneer?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"And since in this famous fishery, each mate or headsman, like a Gothic Knight of old, is always accompanied by his boat-steerer or harpooneer, who in certain conjunctures provides him with a fresh lance, when the former one has been badly twisted, or elbowed in the\", \"citations\": [1], \"confidence\": 0.75}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "And since in this famous fishery, each mate or headsman, like a Gothic Knight of old, is always accompanied by his boat-steerer or harpooneer, who in certain conjunctures provides him with a fresh lance, when the former one has been badly twisted, or elbowed in the",
+            "citations": [
+              1
+            ],
+            "confidence": 0.75
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"A harpooneer is a member of a whaling crew who handles and throws the harpoon to strike a whale. In the whaling fleet each mate or headsman is paired with a boat‑steerer or harpooneer who supplies a fresh lance and actually flings the harpoon like a javelin at the target. Harpooneers are therefore the specialised whale‑catchers on board a ship.\",\n  \"citations\": [\n    \"[1] \\\"...the harpooneers were flingers of javelins...\\\"\",\n    \"[1] \\\"...each mate or headsman... is always accompanied by his boat‑steerer or harpooneer...\\\"\",\n    \"[5] \\\"Third among the harpooneers was Daggoo...\\\"\"\n  ],\n  \"confidence\": 0.97\n}",
+          "valid": false,
+          "reason": "citation '[1] \"...the harpooneers were flingers of javelins...\"' is not an integer",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\n  \"answer\": \"A harpooneer is a member of a whaling ship’s crew who handles the harpoon and works with the boat‑steerer, often supplying a fresh lance to the headsman or mate during the hunt.\",\n  \"citations\": [1, 5],\n  \"confidence\": 0.93\n}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "A harpooneer is a member of a whaling ship’s crew who handles the harpoon and works with the boat‑steerer, often supplying a fresh lance to the headsman or mate during the hunt.",
+            "citations": [
+              1,
+              5
+            ],
+            "confidence": 0.93
+          }
+        }
+      }
+    },
+    {
+      "id": "Q23",
+      "category": "lexical",
+      "question": "What is the objective of the AC-6 control?",
+      "modes": {
+        "extractive": {
+          "raw": "{\"answer\": \"Monitoring requirements, including the need for specific monitoring, may be referenced in other controls and control enhancements, such as AC-2g, AC- 2(7), AC-2(12)(a), AC-2(7)(b), AC-2(7)(c), AC-17(1), AT-4a, AU-13, AU-13(1), AU-13(2), CM-3f, CM- 6d, CM-11c, IR-5, MA-2b, MA-3a, MA-4a, PE-3d, PE-6, PE-14b, PE-16, PE-20, PM-6, PM-23, PM- 31, PS-7e, SA-9c, SR-4, SC-5(3)(b), SC-7a, SC-7(24)(b), SC-18b, SC-43b, and SI-4.\", \"citations\": [1], \"confidence\": 0.5}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "Monitoring requirements, including the need for specific monitoring, may be referenced in other controls and control enhancements, such as AC-2g, AC- 2(7), AC-2(12)(a), AC-2(7)(b), AC-2(7)(c), AC-17(1), AT-4a, AU-13, AU-13(1), AU-13(2), CM-3f, CM- 6d, CM-11c, IR-5, MA-2b, MA-3a, MA-4a, PE-3d, PE-6, PE-14b, PE-16, PE-20, PM-6, PM-23, PM- 31, PS-7e, SA-9c, SR-4, SC-5(3)(b), SC-7a, SC-7(24)(b), SC-18b, SC-43b, and SI-4.",
+            "citations": [
+              1
+            ],
+            "confidence": 0.5
+          }
+        },
+        "free_form": {
+          "raw": "{\n  \"answer\": \"The objective of the AC‑6 control (Access Enforcement – Least Privilege) is to ensure that the organization implements the principle of least privilege by allowing only the minimum level of access—or permissions—necessary for users, processes, and devices to perform their assigned duties. This limits the potential impact of misuse, errors, or compromise by restricting access to only what is required for legitimate tasks.\",\n  \"citations\": [\n    \"NIST SP 800‑53 Rev. 5, AC‑6 – Least Privilege (the control’s purpose statement emphasizes limiting access to the minimum necessary for assigned tasks).\",\n    \"Related discussion in NIST documentation notes that AC‑6 enforces least‑privilege and restricts privileged functions to authorized individuals only.\"\n  ],\n  \"confidence\": 0.94\n}",
+          "valid": false,
+          "reason": "citation 'NIST SP 800‑53 Rev.\\u202f5, AC‑6 – Least Privilege (the control’s purpose statement emphasizes limiting access to the minimum necessary for assigned tasks).' is not an integer",
+          "parsed": null
+        },
+        "citation_enforced": {
+          "raw": "{\n  \"answer\": \"NOT IN CONTEXT\",\n  \"citations\": [],\n  \"confidence\": 0.1\n}",
+          "valid": true,
+          "reason": "ok",
+          "parsed": {
+            "answer": "NOT IN CONTEXT",
+            "citations": [],
+            "confidence": 0.1
+          }
+        }
+      }
+    }
+  ]
+}
