@@ -1,0 +1,44 @@
+[
+  {
+    "q": "Whats 20 + 30 euros?",
+    "used": [],
+    "answer": "20 € + 30 € = 50 €."
+  },
+  {
+    "q": "Double 45 euros for me.",
+    "used": [],
+    "answer": "Sure! Doubling €45 gives you **€90**."
+  },
+  {
+    "q": "If a museum ticket is 12 euros, how much for 3 tickets?",
+    "used": [],
+    "answer": "Three tickets at €12 each would cost **€36**."
+  },
+  {
+    "q": "A famous dish to try in Barcelona?",
+    "used": [],
+    "answer": "One of the most iconic dishes you **must try in Barcelona** is **“Paella al Marisc”** (seafood paella).  \n\n### Why it’s a Barcelona (and Catalan) classic  \n\n| Feature | Details |\n|---------|---------|\n| **Core ingredients** | Short‑grain rice (typically Bomba or Calasparra), saffron, olive oil, garlic, onion, tomato, and a generous mix of fresh Mediterranean seafood (shrimp, mussels, clams, squid, sometimes lobster). |\n| **Catalan twist** | In Barcelona you’ll often find the paella cooked with **local Catalan seafood** and sometimes a splash of **white wine** or a hint of **smoked paprika** (pimentón) for extra depth. |\n| **Where to find it** | Look for it in traditional “marisquerías” (seafood restaurants) and many tapas bars that specialize in rice dishes. The dish is usually served in a wide, shallow pan, perfect for sharing. |\n| **Cultural note** | While paella originated in Valencia, the Barcelona version reflects the city’s close ties to the sea and its love for fresh, high‑quality ingredients. It’s a staple for both locals and visitors, especially on a sunny terrace overlooking the harbor. |\n\n### How to enjoy it like a local  \n\n1. **Order a “paella para compartir”** (paella for sharing) – it’s meant to be eaten communally, so bring a group or ask the staff to split it into portions.  \n2. **Pair it with a glass of chilled **cava** or a crisp **Albariño** wine** – the bubbles and acidity complement the saffron‑infused rice and seafood.  \n3. **Finish with a Catalan dessert** such as **crema catalana** or a scoop of **gelat de xocolata** to round out the meal.  \n\n### Quick tip  \n\nIf you’re short on time, many Barcelona tapas bars also serve **“paella de marisco en porción”** (individual portions) that let you sample the dish without committing to a whole pan. Look for it on the menu under “paella” or ask the server for the “paella del día.”  \n\nEnjoy the flavors of the Mediterranean—bon profit! (¡Bon profit!)"
+  },
+  {
+    "q": "Is the Louvre in Paris?",
+    "used": [],
+    "answer": "Yes! The Louvre Museum (Musée du Louvre) is located in the heart of Paris, France, on the Right Bank of the Seine River near the historic Palais Royal. It’s one of the city’s most famous landmarks and a must‑see for art lovers."
+  },
+  {
+    "q": "Whats a typical daily food budget in Rome, roughly?",
+    "used": [],
+    "answer": "A typical daily food budget in Rome can be broken down roughly like this (per person):\n\n| Budget level | What you can expect | Approx. cost per day |\n|--------------|--------------------|----------------------|\n| **Cheap**    | Breakfast at a café or bakery, a quick lunch (pizza al taglio, panini, or a simple pasta dish), and a modest dinner (trattoria or street‑food spot). | **≈ 15 – 25 €** |\n| **Medium**   | A nicer breakfast (coffee + pastry at a good café), a sit‑down lunch (pasta, risotto, or a light meat/fish dish), and a decent dinner at a mid‑range restaurant with a glass of wine. | **≈ 30 – 45 €** |\n| **Expensive**| Breakfast at a boutique café, a multi‑course lunch or dinner at a well‑reviewed restaurant, possibly a wine or cocktail, plus occasional snacks or gelato. | **≈ 60 € +** |\n\nThese figures assume you’re eating mostly local Italian food and not indulging in high‑end fine‑dining every day. If you plan to cook some meals (e.g., staying in an apartment with a kitchen) or rely heavily on street food, you can stay toward the lower end; if you prefer dining at popular tourist‑heavy spots or trying many specialty dishes, budget toward the higher end."
+  },
+  {
+    "q": "Whats 100 minus 35?",
+    "used": [],
+    "answer": "100 − 35 = 65."
+  },
+  {
+    "q": "Name something fun to do in Amsterdam.",
+    "used": [
+      "find_places"
+    ],
+    "answer": "A classic fun activity in Amsterdam is to hop on a **canal cruise** – you can glide through the historic waterways, admire the charming canal‑front houses, and learn a bit about the city’s history while relaxing on the water. It’s a great way to see many of the city’s highlights from a unique perspective."
+  }
+]

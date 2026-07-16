@@ -1,0 +1,72 @@
+[
+  {
+    "q": "Trip: 3 days, 2 people, 65/day food, 35/day activities, 55 euro pass each. Total?",
+    "exact": 710,
+    "prompt": "neutral",
+    "used_tool": true,
+    "answer": "**Total cost for the 3‑day trip (2 people):** **€710**\n\n- **Per person:** €355  \n- **Breakdown:**  \n  - Food: €65 × 3 days × 2 people = €390  \n  - Activities: €35 × 3 days × 2 people = €210  \n  - Pass (one‑off): €55 × 2 people = €110  \n\n**Grand total:** €390 + €210 + €110 = **€710**."
+  },
+  {
+    "q": "Trip: 3 days, 2 people, 65/day food, 35/day activities, 55 euro pass each. Total?",
+    "exact": 710,
+    "prompt": "strong",
+    "used_tool": true,
+    "answer": "Your 3‑day trip for two people will cost **€710 total** (about **€355 per person**).\n\n**Breakdown**\n\n| Item | Cost per person | Total for 2 people |\n|------|----------------|--------------------|\n| Food (65 €/day × 3 days) | €195 | €390 |\n| Activities (35 €/day × 3 days) | €105 | €210 |\n| Pass (one‑off) | €55 | €110 |\n| **Total** | **€355** | **€710** |\n\nLet me know if you’d like suggestions for things to do or eat in Berlin, Paris, Amsterdam, Rome, or Barcelona!"
+  },
+  {
+    "q": "7 days, 4 people, 42/day food, 28/day activities, no pass. Total cost?",
+    "exact": 1960,
+    "prompt": "neutral",
+    "used_tool": true,
+    "answer": "The total cost for the 7‑day trip for 4 people is **€1 960**.\n\n- **Per person:** €490  \n- **Breakdown:**  \n  - Food: €42 × 7 days × 4 people = €1 176  \n  - Activities: €28 × 7 days × 4 people = €784  \n\nNo one‑off pass costs were added. Enjoy your trip!"
+  },
+  {
+    "q": "7 days, 4 people, 42/day food, 28/day activities, no pass. Total cost?",
+    "exact": 1960,
+    "prompt": "strong",
+    "used_tool": true,
+    "answer": "The total estimated cost for the 7‑day trip for 4 people is **€1,960** (about **€490 per person**). This includes:\n\n- Food: €42 × 7 days × 4 people = €1,176  \n- Activities: €28 × 7 days × 4 people = €784  \n\nNo one‑off pass costs were added. Let me know if you’d like help planning activities, restaurants, or anything else for Berlin, Paris, Amsterdam, Rome, or Barcelona!"
+  },
+  {
+    "q": "5 days for 3 travelers, 38 food and 47 activities per day each, plus a 29 euro pass each. Total?",
+    "exact": 1362,
+    "prompt": "neutral",
+    "used_tool": true,
+    "answer": "The total cost for the 5‑day trip for 3 travelers is **€1,362**.\n\n- **Per person:** €454  \n- **Breakdown:**  \n  * Daily food : €38 × 5 days = €190 per person  \n  * Daily activities : €47 × 5 days = €235 per person  \n  * One‑off pass : €29 per person  \n\nSo each traveler spends €190 + €235 + €29 = €454, and for three travelers that’s €1,362 in total."
+  },
+  {
+    "q": "5 days for 3 travelers, 38 food and 47 activities per day each, plus a 29 euro pass each. Total?",
+    "exact": 1362,
+    "prompt": "strong",
+    "used_tool": true,
+    "answer": "The total cost for the 5‑day trip is **€1,362**.\n\n- **Per person:** €454  \n- **Breakdown:**  \n  * Daily food : €38 × 5 days = €190 per person  \n  * Daily activities : €47 × 5 days = €235 per person  \n  * One‑off pass : €29 per person  \n\n(190 + 235 + 29 = €454 per person, multiplied by 3 travelers = €1,362.)"
+  },
+  {
+    "q": "2 people, 6 days, 55/day food, 45/day activities, 80 pass each — total budget?",
+    "exact": 1360,
+    "prompt": "neutral",
+    "used_tool": true,
+    "answer": "**Total budget for the trip**\n\n| Item | Cost (per person) | Cost (total) |\n|------|-------------------|--------------|\n| Food (55 €/day × 6 days) | €330 | €660 |\n| Activities (45 €/day × 6 days) | €270 | €540 |\n| Pass (one‑off) | €80 | €160 |\n| **Total per person** | **€680** | — |\n| **Total for 2 travelers** | — | **€1 360** |\n\nSo, the overall budget for two people over six days is **€1,360**."
+  },
+  {
+    "q": "2 people, 6 days, 55/day food, 45/day activities, 80 pass each — total budget?",
+    "exact": 1360,
+    "prompt": "strong",
+    "used_tool": true,
+    "answer": "**Total budget for 2 travelers (6 days): €1 360**  \n\n- Food: €55 × 2 people × 6 days = €660  \n- Activities: €45 × 2 people × 6 days = €540  \n- Passes (one‑off): €80 × 2 people = €160  \n\n**Grand total:** €660 + €540 + €160 = **€1 360**.  \n\nLet me know if you’d like suggestions for things to see, eat, or do in any of the cities I cover (Berlin, Paris, Amsterdam, Rome, Barcelona)!"
+  },
+  {
+    "q": "A 4-day trip for 3 people at 33/day food and 27/day activities each. Total?",
+    "exact": 720,
+    "prompt": "neutral",
+    "used_tool": true,
+    "answer": "The total cost for the 4‑day trip is **€720**.\n\n- **Per person:** €240  \n- **Breakdown:**  \n  - Food: €33 × 4 days × 3 people = €396  \n  - Activities: €27 × 4 days × 3 people = €324  \n\nNo one‑off fees were included. Let me know if you’d like to add any extra costs (e.g., transport, accommodation, passes) or need suggestions for things to do!"
+  },
+  {
+    "q": "A 4-day trip for 3 people at 33/day food and 27/day activities each. Total?",
+    "exact": 720,
+    "prompt": "strong",
+    "used_tool": true,
+    "answer": "Your 4‑day trip for 3 people, with food costing €33 per person per day and activities €27 per person per day, will cost **€720 total** (≈ €240 per person)."
+  }
+]
