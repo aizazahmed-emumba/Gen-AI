@@ -1,0 +1,177 @@
+[
+  {
+    "id": "C1-coref",
+    "note": "memory HELPS: 'there' resolves to Berlin",
+    "turns": [
+      "I'm planning a 3-day trip to Berlin. What cheap art can I see?",
+      "And where can I eat cheaply there?",
+      "Roughly how much for 3 days at 60 a day for food and 30 for activities, just me?"
+    ],
+    "turns_log": [
+      {
+        "user": "I'm planning a 3-day trip to Berlin. What cheap art can I see?",
+        "memory_in": "",
+        "actions": "retrieve -> answer",
+        "retrieve_args": {
+          "city": "Berlin",
+          "category": "art",
+          "price_level": "cheap",
+          "limit": 5
+        },
+        "answer": "In Berlin you can enjoy several cheap art options. The city’s private art galleries (e.g., those on Auguststraße and Linienstraße) offer free entry and showcase modern artists in a less‑crowded setting. Berlin’s museums also have many cheap or free admission options, especially on certain days, and cover a wide range of collections from historic works on Museum Island to contemporary pieces at the Kulturforum. Both categories fit a low‑budget itinerary for your 3‑day visit."
+      },
+      {
+        "user": "And where can I eat cheaply there?",
+        "memory_in": "User is planning a 3‑day, low‑budget trip to Berlin, focusing on affordable art experiences such as free‑entry galleries and cheap museum visits.",
+        "actions": "retrieve -> answer",
+        "retrieve_args": {
+          "city": "Berlin",
+          "category": "food",
+          "price_level": "cheap",
+          "limit": 5
+        },
+        "answer": "Berlin offers plenty of cheap eats perfect for a low‑budget traveler. You can enjoy affordable street‑food stalls throughout the city – the Wikivoyage page lists many options, especially in the various districts. A classic budget‑friendly snack is currywurst, which costs around €3 at street vendors (e.g., the famous Konnopke's Imbiss on Eberswalder Straße). Look for small kiosks and market stalls for inexpensive meals, and explore the cheap‑price sections of the \"Eat\" listings on the Berlin Wikivoyage page for more specific venues."
+      },
+      {
+        "user": "Roughly how much for 3 days at 60 a day for food and 30 for activities, just me?",
+        "memory_in": "User is planning a 3‑day, low‑budget trip to Berlin, prioritizing affordable art experiences (free‑entry galleries and cheap museums) and now also seeking cheap eating options such as street‑food stalls and budget‑friendly cafés.",
+        "actions": "answer",
+        "retrieve_args": null,
+        "answer": "For a solo 3‑day trip, at €60 per day for food and €30 per day for activities, the total comes to €270 (food €180 + activities €90)."
+      }
+    ]
+  },
+  {
+    "id": "C2-budget-carry",
+    "note": "memory HELPS: carries days/travelers/rates into a follow-up",
+    "turns": [
+      "What's the budget for 4 days, 2 people, 75 food and 40 activities per day?",
+      "What if we each also buy a 60 euro museum pass?"
+    ],
+    "turns_log": [
+      {
+        "user": "What's the budget for 4 days, 2 people, 75 food and 40 activities per day?",
+        "memory_in": "",
+        "actions": "tool -> answer",
+        "retrieve_args": null,
+        "answer": "The estimated total budget for a 4‑day trip for 2 people, with €75 per day for food and €40 per day for activities, is €920 in total, or €460 per person."
+      },
+      {
+        "user": "What if we each also buy a 60 euro museum pass?",
+        "memory_in": "The user is planning a 4‑day trip for two people, budgeting €75 per day for food and €40 per day for activities (about €920 total), but has not yet specified a destination or particular interests.",
+        "actions": "tool -> tool -> answer",
+        "retrieve_args": null,
+        "answer": "If each of you buys a €60 museum pass, the total trip budget for 4 days for two people rises to €1,040, which works out to €520 per person. This includes €75 per day for food, €40 per day for activities, and the €60 museum pass per person."
+      }
+    ]
+  },
+  {
+    "id": "C3-refuse",
+    "note": "memory HELPS (doesn't override): refuse unsupported city",
+    "turns": [
+      "Show me museums in Amsterdam.",
+      "What about Tokyo — any good museums there?"
+    ],
+    "turns_log": [
+      {
+        "user": "Show me museums in Amsterdam.",
+        "memory_in": "",
+        "actions": "retrieve -> answer",
+        "retrieve_args": {
+          "city": "Amsterdam",
+          "category": "art",
+          "limit": 5
+        },
+        "answer": "Here’s a museum recommendation for Amsterdam:\n\n- **Museums** (category: art, price level: cheap) – https://en.wikivoyage.org/wiki/Amsterdam\n  Amsterdam has an amazing collection of museums. The most popular ones can get very crowded in the summer peak season, so it's worth exploring advance tickets or getting there off‑peak (e.g. very early in the morning)."
+      },
+      {
+        "user": "What about Tokyo — any good museums there?",
+        "memory_in": "User is planning a trip to Amsterdam (trip length not yet specified), prefers cheap options, and is currently interested in museums and art.",
+        "actions": "refuse",
+        "retrieve_args": null,
+        "answer": "I’m sorry, but I can only provide travel information for Berlin, Paris, Amsterdam, Rome, and Barcelona."
+      }
+    ]
+  },
+  {
+    "id": "C4-stale-city",
+    "note": "memory HURTS: user switches to Paris, stale summary keeps Berlin",
+    "turns": [
+      "Show me cheap art in Berlin.",
+      "Hmm, I'm now thinking about Paris instead.",
+      "What are the best museums there?"
+    ],
+    "turns_log": [
+      {
+        "user": "Show me cheap art in Berlin.",
+        "memory_in": "",
+        "actions": "retrieve -> answer",
+        "retrieve_args": {
+          "city": "Berlin",
+          "category": "art",
+          "price_level": "cheap",
+          "limit": 5
+        },
+        "answer": "Here are some cheap (or free) art options in Berlin:\n1. **Private art galleries** – Small galleries on streets like Auguststraße and Linienstraße showcase modern artists and often have free entry.\n2. **Museums** – Many museums in the Mitte district (e.g., Museum Island, Kulturforum) offer low‑cost or free admission to their permanent collections.\n3. **See** – General art listings in Berlin’s district articles include numerous low‑price attractions.\nThese venues provide affordable ways to enjoy Berlin’s vibrant art scene."
+      },
+      {
+        "user": "Hmm, I'm now thinking about Paris instead.",
+        "memory_in": "User is planning a budget‑friendly visit to Berlin, focusing on cheap or free art experiences; the trip length hasn’t been specified yet.",
+        "actions": "retrieve -> answer",
+        "retrieve_args": {
+          "city": "Paris",
+          "category": "art",
+          "price_level": "cheap",
+          "limit": 5
+        },
+        "answer": "Here are a few budget‑friendly art experiences in Paris you can consider:\n\n1. **Paris Museum Pass (cheap option)** – This pre‑paid pass gives you entry to over 70 museums and monuments, including many art venues, for a low flat fee (2‑day pass €62, 4‑day €77, 6‑day €92). It’s a great way to see a lot without paying each entry separately.\n\n2. **Les Invalides** – Listed as a cheap museum, it houses an impressive collection of arms and armor from the Middle Ages onward, plus Napoleon’s tomb. Admission is inexpensive.\n\n3. **Musée national du Moyen Âge** – Another cheap museum featuring medieval art, including the famous \"The Lady and the Unicorn\" tapestries. It offers a low‑cost glimpse into medieval culture.\n\nThese options let you enjoy Paris’s rich art scene without breaking the budget."
+      },
+      {
+        "user": "What are the best museums there?",
+        "memory_in": "User is planning a budget‑friendly trip to Paris, concentrating on affordable or free art experiences; the trip length has not yet been specified.",
+        "actions": "retrieve -> answer",
+        "retrieve_args": {
+          "city": "Paris",
+          "category": "art",
+          "price_level": "cheap",
+          "limit": 5
+        },
+        "answer": "Based on the recent search, here are some of the top museums in Paris that are affordable or free:\n1. **The Louvre** – One of the world’s most famous art museums, home to the Mona Lisa and countless other masterpieces. (Medium price level, but worth a visit.)\n2. **Musée d'Orsay** – Housed in a former railway station, it features an incredible collection of Impressionist and post‑Impressionist works. (Medium price level.)\n3. **Les Invalides** – A striking museum of arms and armor spanning the Middle Ages to modern times, also containing Napoleon’s tomb. (Cheap price level.)\n4. **Musée national du Moyen Âge** – Showcases medieval art, including the famous \"Lady and the Unicorn\" tapestries. (Cheap price level.)\n\nFor a budget‑friendly way to see many of these sites, consider the **Paris Museum Pass** (2‑day €62, 4‑day €77, 6‑day €92), which gives prepaid entry to over 70 museums and monuments, including the Louvre and Musée d'Orsay."
+      }
+    ]
+  },
+  {
+    "id": "C5-pref-bleed",
+    "note": "memory HURTS: 'cheap' bleeds into an anniversary splurge",
+    "turns": [
+      "Find me cheap food in Rome.",
+      "Actually it's for my anniversary - suggest somewhere really special and upscale for dinner."
+    ],
+    "turns_log": [
+      {
+        "user": "Find me cheap food in Rome.",
+        "memory_in": "",
+        "actions": "retrieve -> answer",
+        "retrieve_args": {
+          "city": "Rome",
+          "category": "food",
+          "price_level": "cheap",
+          "limit": 5
+        },
+        "answer": "Cheap food in Rome is best found away from the main tourist zones. Head to neighborhoods where locals live and eat – you’ll get lower prices and authentic dishes. Look for small pizzerias that serve thin‑crust Roman pizza, especially in the evenings, and try fried specialties like baccala (battered salt cod) as a starter. Avoid restaurants that cater primarily to tourists, as they often charge double. Even though many locals‑focused places may have staff who speak limited English, a few Italian phrases will go a long way and you’ll enjoy genuine, inexpensive Roman cuisine."
+      },
+      {
+        "user": "Actually it's for my anniversary - suggest somewhere really special and upscale for dinner.",
+        "memory_in": "User is planning a budget‑focused visit to Rome, seeking cheap, authentic local food options; trip length hasn’t been specified. The priority is inexpensive dining in neighborhoods away from tourist hotspots.",
+        "actions": "retrieve -> retrieve -> retrieve -> retrieve",
+        "retrieve_args": {
+          "city": "Rome",
+          "category": "food",
+          "price_level": "expensive",
+          "limit": 5
+        },
+        "answer": "I couldn't complete that within the allowed steps."
+      }
+    ]
+  }
+]
